@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.opinion {
+    text-align: center;
+    padding: 20px;
+    max-width: 50px; /* Reducimos un poco el ancho */
+    margin: 0 auto;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Para alinear la imagen con el texto */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre imagen y texto */
+}
+
+.opinion img {
+    width: 10px;  /* Reducimos el tamaño de la imagen */
+    height: 10px; /* Reducimos el tamaño de la imagen */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.opinion .nombre {
+    font-weight: bold;
+    font-size: 1rem; /* Ajustamos tamaño del texto */
+    color: #333;
+}
+
+#carouselOpiniones .carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centra la opinión dentro del carrusel */
+}
+
