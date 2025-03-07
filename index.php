@@ -1,3 +1,4 @@
+<?php include '../EPZagal/controller/contacto.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>  
@@ -381,7 +382,7 @@
 
     <section id="contacto" class="container py-5">
         <h2 class="text-center">Contáctanos</h2>
-        <form>
+        <form action="controller/contacto.php" method="POST">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre">
