@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Electrónicos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
@@ -64,7 +64,19 @@
 
     <section id="nosotros" class="container py-5">
         <h2 class="text-center">Nosotros</h2>
-        <p class="text-center">Somos una tienda especializada en productos electrónicos de alta calidad...</p>
+        <div class="nosotros-container">
+            <p>En TechShop, nos apasiona la tecnología y trabajamos cada día para ofrecerte los mejores productos electrónicos del mercado. 
+                Desde smartphones y laptops hasta accesorios innovadores, seleccionamos cuidadosamente cada artículo para asegurarnos de 
+                que cumpla con los más altos estándares de calidad.</p><br>
+
+<p>Nos destacamos por brindar:<br>
+✅ Productos 100% originales de marcas reconocidas.<br>
+✅ Precios competitivos sin comprometer la calidad.<br>
+✅ Atención personalizada para resolver todas tus dudas y asesorarte en tu compra.<br>
+✅ Envíos rápidos y seguros, para que disfrutes de tu producto lo antes posible.<br></p>
+
+<br>Nuestro compromiso es ofrecerte una experiencia de compra confiable y sencilla, con un equipo dispuesto a ayudarte en cada paso del proceso. ¡Tu satisfacción es nuestra prioridad!</p>
+        </div>
     </section>
 
     <section id="productos" class="container py-5">
@@ -94,7 +106,7 @@
                 <!-- Producto 1 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/apple_product1.jpg" class="card-img-top" alt="Producto Apple 1">
+                        <img src="img/t1.PNG" class="card-img-top" alt="Producto Apple 1">
                         <div class="card-body">
                             <h5 class="card-title">iPhone 13 Pro</h5>
                             <p class="card-text">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
@@ -105,7 +117,7 @@
                 <!-- Producto 2 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/apple_product2.jpg" class="card-img-top" alt="Producto Apple 2">
+                        <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
                         <div class="card-body">
                             <h5 class="card-title">MacBook Air M1</h5>
                             <p class="card-text">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
@@ -116,7 +128,7 @@
                 <!-- Producto 3 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/apple_product3.jpg" class="card-img-top" alt="Producto Apple 3">
+                        <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
                         <div class="card-body">
                             <h5 class="card-title">Apple Watch Series 7</h5>
                             <p class="card-text">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
@@ -127,7 +139,7 @@
                 <!-- Producto 4 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/apple_product4.jpg" class="card-img-top" alt="Producto Apple 4">
+                        <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
                         <div class="card-body">
                             <h5 class="card-title">iPad Pro 11</h5>
                             <p class="card-text">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
@@ -138,7 +150,7 @@
                 <!-- Producto 5 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/apple_product5.jpg" class="card-img-top" alt="Producto Apple 5">
+                        <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
                         <div class="card-body">
                             <h5 class="card-title">AirPods Pro</h5>
                             <p class="card-text">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
@@ -149,7 +161,7 @@
                 <!-- Producto 6 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/apple_product6.jpg" class="card-img-top" alt="Producto Apple 6">
+                        <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
                         <div class="card-body">
                             <h5 class="card-title">HomePod Mini</h5>
                             <p class="card-text">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
@@ -166,7 +178,7 @@
                 <!-- Producto 1 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/samsung_product1.jpg" class="card-img-top" alt="Producto Samsung 1">
+                        <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
                         <div class="card-body">
                             <h5 class="card-title">Samsung Galaxy S21</h5>
                             <p class="card-text">Pantalla Dynamic AMOLED, cámara triple, rendimiento Exynos.</p>
@@ -177,7 +189,7 @@
                 <!-- Producto 2 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/samsung_product2.jpg" class="card-img-top" alt="Producto Samsung 2">
+                        <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
                         <div class="card-body">
                             <h5 class="card-title">Samsung Galaxy Note 20</h5>
                             <p class="card-text">Pantalla AMOLED, cámara ultra alta resolución, S Pen incluido.</p>
@@ -188,7 +200,7 @@
                 <!-- Producto 3 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/samsung_product3.jpg" class="card-img-top" alt="Producto Samsung 3">
+                        <img src="img/re.PNG" class="card-img-top" alt="Producto Samsung 3">
                         <div class="card-body">
                             <h5 class="card-title">Samsung Galaxy Watch 4</h5>
                             <p class="card-text">Rendimiento rápido, monitoreo de salud avanzado, pantalla AMOLED.</p>
@@ -199,7 +211,7 @@
                 <!-- Producto 4 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/samsung_product4.jpg" class="card-img-top" alt="Producto Samsung 4">
+                        <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
                         <div class="card-body">
                             <h5 class="card-title">Samsung Galaxy Tab S7</h5>
                             <p class="card-text">Pantalla LCD de alta resolución, procesador Snapdragon, S Pen incluido.</p>
@@ -210,7 +222,7 @@
                 <!-- Producto 5 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/samsung_product5.jpg" class="card-img-top" alt="Producto Samsung 5">
+                        <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
                         <div class="card-body">
                             <h5 class="card-title">Samsung Buds Pro</h5>
                             <p class="card-text">Sonido envolvente, cancelación de ruido, resistencia al agua.</p>
@@ -221,7 +233,7 @@
                 <!-- Producto 6 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/samsung_product6.jpg" class="card-img-top" alt="Producto Samsung 6">
+                        <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
                         <div class="card-body">
                             <h5 class="card-title">Samsung SmartThings Hub</h5>
                             <p class="card-text">Automatiza tu hogar inteligente, compatible con Alexa y Google Assistant.</p>
@@ -238,7 +250,7 @@
                 <!-- Producto 1 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/motorola_product1.jpg" class="card-img-top" alt="Producto Motorola 1">
+                        <img src="img/moto1.PNG" class="card-img-top" alt="Producto Motorola 1">
                         <div class="card-body">
                             <h5 class="card-title">Motorola Edge 20</h5>
                             <p class="card-text">Pantalla OLED, cámara triple, procesador Snapdragon.</p>
@@ -249,7 +261,7 @@
                 <!-- Producto 2 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/motorola_product2.jpg" class="card-img-top" alt="Producto Motorola 2">
+                        <img src="img/MOTO2.PNG" class="card-img-top" alt="Producto Motorola 2">
                         <div class="card-body">
                             <h5 class="card-title">Motorola Moto G100</h5>
                             <p class="card-text">Pantalla FHD+, cámara cuádruple, rendimiento Qualcomm.</p>
@@ -260,7 +272,7 @@
                 <!-- Producto 3 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/motorola_product3.jpg" class="card-img-top" alt="Producto Motorola 3">
+                        <img src="img/MOTO3.PNG" class="card-img-top" alt="Producto Motorola 3">
                         <div class="card-body">
                             <h5 class="card-title">Motorola Moto G Power</h5>
                             <p class="card-text">Batería de larga duración, pantalla de 6.6", procesador octa-core.</p>
@@ -271,7 +283,7 @@
                 <!-- Producto 4 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/motorola_product4.jpg" class="card-img-top" alt="Producto Motorola 4">
+                        <img src="img/MOTO4.PNG" class="card-img-top" alt="Producto Motorola 4">
                         <div class="card-body">
                             <h5 class="card-title">Motorola One Fusion+</h5>
                             <p class="card-text">Pantalla Max Vision, cámara de 64 MP, batería de 5000mAh.</p>
@@ -282,7 +294,7 @@
                 <!-- Producto 5 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/motorola_product5.jpg" class="card-img-top" alt="Producto Motorola 5">
+                        <img src="img/MOTO5.PNG" class="card-img-top" alt="Producto Motorola 5">
                         <div class="card-body">
                             <h5 class="card-title">Motorola Moto E</h5>
                             <p class="card-text">Pantalla de 6.2", batería de 3550mAh, cámara dual.</p>
@@ -293,7 +305,7 @@
                 <!-- Producto 6 -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/motorola_product6.jpg" class="card-img-top" alt="Producto Motorola 6">
+                        <img src="img/MOTO6.PNG" class="card-img-top" alt="Producto Motorola 6">
                         <div class="card-body">
                             <h5 class="card-title">Motorola Razr 5G</h5>
                             <p class="card-text">Diseño plegable, pantalla OLED, cámara de 48 MP.</p>
@@ -307,37 +319,64 @@
 </section>
 
 
-    <section id="opiniones" class="container py-5">
-        <h2 class="text-center">Opiniones de Clientes</h2>
-        <div id="carouselOpiniones" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="opinion d-flex justify-content-center align-items-center">
-                        <img src="img/deb.jpeg" alt="Cliente 1">
-                        <div>
-                            <p class="nombre">Deba Picafresa</p>
-                            <p>"Excelente servicio y productos de calidad. ¡Muy recomendado!"</p>
-                        </div>
+<section id="opiniones" class="container py-5">
+    <h2 class="text-center">Opiniones de Clientes</h2>
+    <div id="carouselOpiniones" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Primer slide con tres opiniones -->
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center gap-3">
+                    <div class="opinion">
+                        <img src="img/pho1.avif" alt="Cliente 1">
+                        <p class="nombre">Deba Picafresa</p>
+                        <p>"Excelente servicio y productos de calidad. ¡Muy recomendado!"</p>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="opinion d-flex justify-content-center align-items-center">
-                        <img src="img/cliente2.jpg" alt="Cliente 2">
-                        <div>
-                            <p class="nombre">María Fernández</p>
-                            <p>"Rápida entrega y atención personalizada. ¡Volveré a comprar!"</p>
-                        </div>
+                    <div class="opinion">
+                        <img src="img/pho6.avif" alt="Cliente 2">
+                        <p class="nombre">Carlos Vergara</p>
+                        <p>"Rápida entrega y atención personalizada. ¡Volveré a comprar!"</p>
+                    </div>
+                    <div class="opinion">
+                        <img src="img/pho2.avif" alt="Cliente 3">
+                        <p class="nombre">Yessi Martinez</p>
+                        <p>"Me sorprendió la rapidez del envío y la calidad del producto. ¡Muy satisfecho!"</p>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOpiniones" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselOpiniones" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+
+            <!-- Segundo slide con otras tres opiniones -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-3">
+                    <div class="opinion">
+                        <img src="img/pho3.avif" alt="Cliente 4">
+                        <p class="nombre">Laura Gómez</p>
+                        <p>"Gran experiencia de compra, el producto superó mis expectativas."</p>
+                    </div>
+                    <div class="opinion">
+                        <img src="img/pho5.avif" alt="Cliente 5">
+                        <p class="nombre">Mario Pérez</p>
+                        <p>"Buena calidad y excelente atención al cliente. ¡Volveré!"</p>
+                    </div>
+                    <div class="opinion">
+                        <img src="img/pho4.avif" alt="Cliente 6">
+                        <p class="nombre">Ana Torres</p>
+                        <p>"Totalmente recomendable, todo llegó a tiempo y en buen estado."</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+
+        <!-- Botones de navegación -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOpiniones" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselOpiniones" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+
 
 
     <section id="contacto" class="container py-5">
