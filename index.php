@@ -1,4 +1,3 @@
-<?php include '../EPZagal/controller/contacto.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>  
@@ -76,7 +75,7 @@
 ✅ Atención personalizada para resolver todas tus dudas y asesorarte en tu compra.<br>
 ✅ Envíos rápidos y seguros, para que disfrutes de tu producto lo antes posible.<br></p>
 
-<br>Nuestro compromiso es ofrecerte una experiencia de compra confiable y sencilla, con un equipo dispuesto a ayudarte en cada paso del proceso. ¡Tu satisfacción es nuestra prioridad!</p>
+<P>Nuestro compromiso es ofrecerte una experiencia de compra confiable y sencilla, con un equipo dispuesto a ayudarte en cada paso del proceso. ¡Tu satisfacción es nuestra prioridad!</p>
         </div>
     </section>
 
@@ -380,24 +379,24 @@
 
 
 
-    <section id="contacto" class="container py-5">
-        <h2 class="text-center">Contáctanos</h2>
-        <form action="controller/contacto.php" method="POST">
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-info">Enviar</button>
-        </form>
-    </section>
+<section id="contacto" class="container py-5">
+    <h2 class="text-center">Contáctanos</h2>
+    <form action="controller/contacto.php" method="POST">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-info">Enviar</button>
+    </form>
+</section>
 
     <footer class="bg-dark text-white text-center p-3">
         <p>&copy; 2025 TechShop. Todos los derechos reservados.</p>

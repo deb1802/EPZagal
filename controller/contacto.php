@@ -1,6 +1,20 @@
 <?php
 include '../../EPZagal/model/db.php';
 
+$servername = "localhost"; // Cambia si usas un servidor remoto
+$username = "root"; // Usuario de tu BD
+$password = ""; // Contraseña (déjala vacía si no tiene)
+$database = "techshop";
+
+$conn = mysqli_connect($servername, $username, $password, $database);
+
+if (!$conn) {
+    die("Error de conexión: " . mysqli_connect_error());
+}
+
+// Si la conexión es correcta, imprime un mensaje
+echo "Conexión exitosa a la BD";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = trim($_POST["nombre"]);
     $email = trim($_POST["email"]);
