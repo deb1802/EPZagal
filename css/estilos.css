@@ -34,7 +34,7 @@ body {
 }
 /* Navbar estilizado */
 .navbar {
-    background: linear-gradient(135deg, #17a2b8, #0d6efd); /* Degradado azul */
+    background: linear-gradient(135deg, #696d6e, #696d6e); /* Degradado azul */
     padding: 15px 0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -65,7 +65,7 @@ body {
 
 /* Efecto hover */
 .navbar-nav .nav-link:hover {
-    color: #72e9f4;
+    color: #4d4f4f;
 }
 
 /* Botón del menú hamburguesa */
@@ -81,7 +81,7 @@ body {
 
 /* Dropdown */
 .nav-item .dropdown-menu {
-    background-color: #9df5fa;
+    background-color: #4b4d4e;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
