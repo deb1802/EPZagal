@@ -22,13 +22,41 @@ body {
 /* Ajustes responsivos */
 @media (max-width: 768px) {
     .navbar {
-        padding: 10px 0;
+        padding: 10px 0; /* Reducir el padding */
     }
 
-    body {
-        padding-top: 60px; /* Ajustar altura para móviles */
+    .navbar-brand {
+        font-size: 1.5rem; /* Hacer el logo un poco más pequeño */
+    }
+
+    .navbar-brand img {
+        width:20px; /* Reducir el tamaño del logo */
+        height:20px;
     }
 }
+@media (max-width: 768px) {
+    .navbar-toggler {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .userway-widget {
+        top: 10px; /* Ajusta según sea necesario */
+        right: 10px; /* Asegura que no bloquee el botón */
+    }
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px; /* Reducir espacio en móviles */
+    }
+}
+
 
 .opinion {  
     text-align: center;
@@ -129,7 +157,7 @@ body {
 @media (max-width: 992px) {
     .navbar-collapse {
         background: linear-gradient(135deg, #17a2b8, #0d6efd);
-        padding: 10px;
+        padding:50px;
         border-radius: 10px;
     }
 

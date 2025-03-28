@@ -1,10 +1,10 @@
 <?php
 include '../../EPZagal/model/db.php';
 
-$servername = "localhost"; // Cambia si usas un servidor remoto
-$username = "root"; // Usuario de tu BD
-$password = ""; // Contraseña (déjala vacía si no tiene)
-$database = "techshop";
+$servername = "mysql.webcindario.com";
+$username = "techshop";
+$password = "TechShop44";
+$dbname = "techshop";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 

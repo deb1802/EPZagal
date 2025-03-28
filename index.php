@@ -104,173 +104,170 @@
         </ul>
     </div>
 
-    <!-- Productos -->
-    <div class="tab-content" id="productosTabContent">
+    <!-- Producto 1 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/T1.PNG" class="card-img-top" alt="Producto Apple 1">
+        <div class="card-body">
+            <h5 class="card-title" data-translate="producto_apple_1_title">iPhone 13 Pro</h5>
+            <p class="card-text" data-translate="producto_apple_1_desc">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
+            <p data-translate="producto_apple_1_precio"><strong>Precio: $999.00 USD</strong></p>
+            <p data-translate="producto_apple_1_fecha">Fecha de lanzamiento: 24/09/2021</p>
+            <p data-translate="producto_apple_1_peso">Peso: 204 g</p>
+            <p data-translate="producto_apple_1_hora_actualizacion">Hora de actualización: 14:30</p>
+        </div>
+    </div>
+</div>
 
-        <!-- Apple -->
-        <div class="tab-pane fade show active" id="apple" role="tabpanel" aria-labelledby="apple-tab">
-            <div class="row">
-                <!-- Producto 1 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/T1.PNG" class="card-img-top" alt="Producto Apple 1">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_apple_1_title">iPhone 13 Pro</h5>
-                            <p class="card-text" data-translate="producto_apple_1_desc">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
-                            <p><strong>Precio: $999.00 USD</strong></p>
-                            <p>Fecha de lanzamiento: 24/09/2021</p>
-                            <p>Peso: 204 g</p>
-                            <p>Hora de actualización: 14:30</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 2 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_apple_2_title">MacBook Air M1</h5>
-                            <p class="card-text" data-translate="producto_apple_2_desc">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
-                            <p><strong>Precio: $1,099.00 USD</strong></p>
-                            <p>Fecha de lanzamiento: 17/11/2020</p>
-                            <p>Peso: 1.29 kg</p>
-                            <p>Medidas: 30.41 cm x 21.24 cm x 1.61 cm</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 3 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_apple_3_title">Apple Watch Series 7</h5>
-                            <p class="card-text" data-translate="producto_apple_3_desc">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
-                            <p><strong>Precio: $399.00 USD</strong></p>
-                            <p>Fecha de lanzamiento: 15/10/2021</p>
-                            <p>Peso: 32 g</p>
-                            <p>Medidas: 41 mm x 35 mm x 10.7 mm</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 4 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_apple_4_title">iPad Pro 11</h5>
-                            <p class="card-text" data-translate="producto_apple_4_desc">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
-                            <p><strong>Precio: $799.00 USD</strong></p>
-                            <p>Fecha de lanzamiento: 20/05/2021</p>
-                            <p>Peso: 466 g</p>
-                            <p>Almacenamiento: 128GB - 2TB</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 5 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_apple_5_title">AirPods Pro</h5>
-                            <p class="card-text" data-translate="producto_apple_5_desc">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
-                            <p><strong>Precio: $249.00 USD</strong></p>
-                            <p>Peso: 5.4 g (cada uno)</p>
-                            <p>Tiempo de carga: 1 hora</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 6 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_apple_6_title">HomePod Mini</h5>
-                            <p class="card-text" data-translate="producto_apple_6_desc">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
-                            <p><strong>Precio: $99.00 USD</strong></p>
-                            <p>Fecha de lanzamiento: 16/11/2020</p>
-                            <p>Peso: 345 g</p>
-                        </div>
-                    </div>
+<!-- Producto 2 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
+        <div class="card-body">
+            <h5 class="card-title" data-translate="producto_apple_2_title">MacBook Air M1</h5>
+            <p class="card-text" data-translate="producto_apple_2_desc">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
+            <p data-translate="producto_apple_2_precio"><strong>Precio: $1,099.00 USD</strong></p>
+            <p data-translate="producto_apple_2_fecha">Fecha de lanzamiento: 17/11/2020</p>
+            <p data-translate="producto_apple_2_peso">Peso: 1.29 kg</p>
+            <p data-translate="producto_apple_2_medidas">Medidas: 30.41 cm x 21.24 cm x 1.61 cm</p>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 3 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
+        <div class="card-body">
+            <h5 class="card-title" data-translate="producto_apple_3_title">Apple Watch Series 7</h5>
+            <p class="card-text" data-translate="producto_apple_3_desc">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
+            <p data-translate="producto_apple_3_precio"><strong>Precio: $399.00 USD</strong></p>
+            <p data-translate="producto_apple_3_fecha">Fecha de lanzamiento: 15/10/2021</p>
+            <p data-translate="producto_apple_3_peso">Peso: 32 g</p>
+            <p data-translate="producto_apple_3_medidas">Medidas: 41 mm x 35 mm x 10.7 mm</p>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 4 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
+        <div class="card-body">
+            <h5 class="card-title" data-translate="producto_apple_4_title">iPad Pro 11</h5>
+            <p class="card-text" data-translate="producto_apple_4_desc">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
+            <p data-translate="producto_apple_4_precio"><strong>Precio: $799.00 USD</strong></p>
+            <p data-translate="producto_apple_4_fecha">Fecha de lanzamiento: 20/05/2021</p>
+            <p data-translate="producto_apple_4_peso">Peso: 466 g</p>
+            <p data-translate="producto_apple_4_almacenamiento">Almacenamiento: 128GB - 2TB</p>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 5 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
+        <div class="card-body">
+            <h5 class="card-title" data-translate="producto_apple_5_title">AirPods Pro</h5>
+            <p class="card-text" data-translate="producto_apple_5_desc">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
+            <p data-translate="producto_apple_5_precio"><strong>Precio: $249.00 USD</strong></p>
+            <p data-translate="producto_apple_5_peso">Peso: 5.4 g (cada uno)</p>
+            <p data-translate="producto_apple_5_tiempo_carga">Tiempo de carga: 1 hora</p>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 6 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
+        <div class="card-body">
+            <h5 class="card-title" data-translate="producto_apple_6_title">HomePod Mini</h5>
+            <p class="card-text" data-translate="producto_apple_6_desc">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
+            <p data-translate="producto_apple_6_precio"><strong>Precio: $99.00 USD</strong></p>
+            <p data-translate="producto_apple_6_fecha">Fecha de lanzamiento: 16/11/2020</p>
+            <p data-translate="producto_apple_6_peso">Peso: 345 g</p>
+        </div>
+    </div>
+</div>
+    <!-- Samsung -->
+<div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
+    <div class="row">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
+                <div class="card-body">
+                    <h5 class="card-title" data-translate="producto_samsung_1_title">Samsung Galaxy S21</h5>
+                    <p class="card-text" data-translate="producto_samsung_1_desc">Un rayo de velocidad en tus manos: Pantalla Dynamic AMOLED, cámara triple y rendimiento Exynos.</p>
+                    <p data-translate="producto_samsung_1_precio"><strong>Precio: $799 USD</strong></p>
+                    <p data-translate="producto_samsung_1_fecha"><small>Fecha de lanzamiento: 29/01/2021</small></p>
                 </div>
             </div>
         </div>
-         <!-- Samsung -->
-         <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
-            <div class="row">
-                <!-- Producto 1 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_samsung_1_title">Samsung Galaxy S21</h5>
-                            <p class="card-text" data-translate="producto_samsung_1_desc">Un rayo de velocidad en tus manos: Pantalla Dynamic AMOLED, cámara triple y rendimiento Exynos.</p>
-                            <p><strong>Precio: $799 USD</strong></p>
-                            <p><small>Fecha de lanzamiento: 29/01/2021</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 2 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_samsung_2_title">Samsung Galaxy Note 20</h5>
-                            <p class="card-text" data-translate="producto_samsung_2_desc">El cuaderno digital del futuro: Pantalla AMOLED, cámara ultra alta resolución y S Pen incluido.</p>
-                            <p><strong>Precio: $999 USD</strong></p>
-                            <p><small>Dimensiones: 161.6 x 75.2 x 8.3 mm</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 3 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/RE.PNG" class="card-img-top" alt="Producto Samsung 3">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_samsung_3_title">Samsung Galaxy Watch 4</h5>
-                            <p class="card-text" data-translate="producto_samsung_3_desc">El guardián de tu bienestar: Rendimiento rápido, monitoreo de salud avanzado y pantalla AMOLED.</p>
-                            <p><strong>Precio: $249 USD</strong></p>
-                            <p><small>Autonomía: Hasta 40 horas</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 4 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_samsung_4_title">Samsung Galaxy Tab S7</h5>
-                            <p class="card-text" data-translate="producto_samsung_4_desc">La ventana a tu creatividad: Pantalla LCD de alta resolución, procesador Snapdragon y S Pen incluido.</p>
-                            <p><strong>Precio: $649 USD</strong></p>
-                            <p><small>Peso: 498 g</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 5 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_samsung_5_title">Samsung Buds Pro</h5>
-                            <p class="card-text" data-translate="producto_samsung_5_desc">El sonido que te envuelve: Cancelación de ruido, resistencia al agua y ajuste ergonómico.</p>
-                            <p><strong>Precio: $199 USD</strong></p>
-                            <p><small>Duración de batería: Hasta 8 horas (con carga completa)</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Producto 6 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
-                        <div class="card-body">
-                            <h5 class="card-title" data-translate="producto_samsung_6_title">Samsung SmartThings Hub</h5>
-                            <p class="card-text" data-translate="producto_samsung_6_desc">El cerebro de tu hogar inteligente: Automatiza y controla tu entorno con compatibilidad total.</p>
-                            <p><strong>Precio: $119 USD</strong></p>
-                            <p><small>Compatibilidad: Alexa, Google Assistant, Zigbee, Z-Wave</small></p>
-                        </div>
-                    </div>
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
+                <div class="card-body">
+                    <h5 class="card-title" data-translate="producto_samsung_2_title">Samsung Galaxy Note 20</h5>
+                    <p class="card-text" data-translate="producto_samsung_2_desc">El cuaderno digital del futuro: Pantalla AMOLED, cámara ultra alta resolución y S Pen incluido.</p>
+                    <p data-translate="producto_samsung_2_precio"><strong>Precio: $999 USD</strong></p>
+                    <p data-translate="producto_samsung_2_dimensiones"><small>Dimensiones: 161.6 x 75.2 x 8.3 mm</small></p>
                 </div>
             </div>
         </div>
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/RE.PNG" class="card-img-top" alt="Producto Samsung 3">
+                <div class="card-body">
+                    <h5 class="card-title" data-translate="producto_samsung_3_title">Samsung Galaxy Watch 4</h5>
+                    <p class="card-text" data-translate="producto_samsung_3_desc">El guardián de tu bienestar: Rendimiento rápido, monitoreo de salud avanzado y pantalla AMOLED.</p>
+                    <p data-translate="producto_samsung_3_precio"><strong>Precio: $249 USD</strong></p>
+                    <p data-translate="producto_samsung_3_autonomia"><small>Autonomía: Hasta 40 horas</small></p>
+                </div>
+            </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
+                <div class="card-body">
+                    <h5 class="card-title" data-translate="producto_samsung_4_title">Samsung Galaxy Tab S7</h5>
+                    <p class="card-text" data-translate="producto_samsung_4_desc">La ventana a tu creatividad: Pantalla LCD de alta resolución, procesador Snapdragon y S Pen incluido.</p>
+                    <p data-translate="producto_samsung_4_precio"><strong>Precio: $649 USD</strong></p>
+                    <p data-translate="producto_samsung_4_peso"><small>Peso: 498 g</small></p>
+                </div>
+            </div>
+        </div>
+        <!-- Producto 5 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
+                <div class="card-body">
+                    <h5 class="card-title" data-translate="producto_samsung_5_title">Samsung Buds Pro</h5>
+                    <p class="card-text" data-translate="producto_samsung_5_desc">El sonido que te envuelve: Cancelación de ruido, resistencia al agua y ajuste ergonómico.</p>
+                    <p data-translate="producto_samsung_5_precio"><strong>Precio: $199 USD</strong></p>
+                    <p data-translate="producto_samsung_5_bateria"><small>Duración de batería: Hasta 8 horas (con carga completa)</small></p>
+                </div>
+            </div>
+        </div>
+        <!-- Producto 6 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
+                <div class="card-body">
+                    <h5 class="card-title" data-translate="producto_samsung_6_title">Samsung SmartThings Hub</h5>
+                    <p class="card-text" data-translate="producto_samsung_6_desc">El cerebro de tu hogar inteligente: Automatiza y controla tu entorno con compatibilidad total.</p>
+                    <p data-translate="producto_samsung_6_precio"><strong>Precio: $119 USD</strong></p>
+                    <p data-translate="producto_samsung_6_compatibilidad"><small>Compatibilidad: Alexa, Google Assistant, Zigbee, Z-Wave</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Motorola -->
@@ -283,11 +280,11 @@
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_1_title">Motorola Edge 20</h5>
                     <p class="card-text" data-translate="producto_motorola_1_desc">Pantalla OLED de 6.7", tasa de refresco de 144Hz, cámara triple de 108MP, procesador Snapdragon 778G.</p>
-                    <p><strong>Precio: $599.00 USD</strong></p> <!-- Formato: Moneda -->
-                    <p>Fecha de lanzamiento: <time datetime="2021-08-01">01/08/2021</time></p> <!-- Formato: Fecha -->
-                    <p>Peso: 163 g</p> <!-- Formato: Números -->
-                    <p>Dimensiones: 163.3 x 76.0 x 7.9 mm</p> <!-- Formato: Medidas -->
-                    <p>Hora de actualización: 14:30</p> <!-- Formato: Hora -->
+                    <p data-translate="producto_motorola_1_precio"><strong>Precio: $599.00 USD</strong></p>
+                    <p data-translate="producto_motorola_1_fecha"><small>Fecha de lanzamiento: 01/08/2021</small></p>
+                    <p data-translate="producto_motorola_1_peso"><small>Peso: 163 g</small></p>
+                    <p data-translate="producto_motorola_1_dimensiones"><small>Dimensiones: 163.3 x 76.0 x 7.9 mm</small></p>
+                    <p data-translate="producto_motorola_1_hora_actualizacion"><small>Hora de actualización: 14:30</small></p>
                 </div>
             </div>
         </div>
@@ -298,10 +295,10 @@
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_2_title">Motorola Moto G100</h5>
                     <p class="card-text" data-translate="producto_motorola_2_desc">Pantalla FHD+ de 6.7", procesador Qualcomm Snapdragon 870, cámara cuádruple con sensor principal de 64MP.</p>
-                    <p><strong>Precio: $399.00 USD</strong></p> <!-- Formato: Moneda -->
-                    <p>Fecha de lanzamiento: <time datetime="2021-03-01">01/03/2021</time></p> <!-- Formato: Fecha -->
-                    <p>Peso: 207 g</p> <!-- Formato: Números -->
-                    <p>Dimensiones: 168.48 x 74.38 x 9.49 mm</p> <!-- Formato: Medidas -->
+                    <p data-translate="producto_motorola_2_precio"><strong>Precio: $399.00 USD</strong></p>
+                    <p data-translate="producto_motorola_2_fecha"><small>Fecha de lanzamiento: 01/03/2021</small></p>
+                    <p data-translate="producto_motorola_2_peso"><small>Peso: 207 g</small></p>
+                    <p data-translate="producto_motorola_2_dimensiones"><small>Dimensiones: 168.48 x 74.38 x 9.49 mm</small></p>
                 </div>
             </div>
         </div>
@@ -312,11 +309,11 @@
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_3_title">Motorola Moto G Power</h5>
                     <p class="card-text" data-translate="producto_motorola_3_desc">Batería de 5000mAh para hasta 3 días de uso, pantalla de 6.6" HD+, procesador octa-core Snapdragon.</p>
-                    <p><strong>Precio: $199.00 USD</strong></p> <!-- Formato: Moneda -->
-                    <p>Fecha de lanzamiento: <time datetime="2020-02-01">01/02/2020</time></p> <!-- Formato: Fecha -->
-                    <p>Peso: 199 g</p> <!-- Formato: Números -->
-                    <p>Dimensiones: 165.3 x 75.8 x 9.6 mm</p> <!-- Formato: Medidas -->
-                    <p><strong>Batería: 5000 mAh</strong></p> <!-- Formato: Números -->
+                    <p data-translate="producto_motorola_3_precio"><strong>Precio: $199.00 USD</strong></p>
+                    <p data-translate="producto_motorola_3_fecha"><small>Fecha de lanzamiento: 01/02/2020</small></p>
+                    <p data-translate="producto_motorola_3_peso"><small>Peso: 199 g</small></p>
+                    <p data-translate="producto_motorola_3_dimensiones"><small>Dimensiones: 165.3 x 75.8 x 9.6 mm</small></p>
+                    <p data-translate="producto_motorola_3_bateria"><strong>Batería: 5000 mAh</strong></p>
                 </div>
             </div>
         </div>
@@ -327,10 +324,10 @@
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_4_title">Motorola One Fusion+</h5>
                     <p class="card-text" data-translate="producto_motorola_4_desc">Pantalla Max Vision de 6.5" FHD+, cámara de 64MP con Night Vision, batería de 5000mAh.</p>
-                    <p><strong>Precio: $249.00 USD</strong></p> <!-- Formato: Moneda -->
-                    <p>Fecha de lanzamiento: <time datetime="2020-06-01">01/06/2020</time></p> <!-- Formato: Fecha -->
-                    <p>Peso: 202 g</p> <!-- Formato: Números -->
-                    <p>Dimensiones: 169.2 x 76.0 x 9.4 mm</p> <!-- Formato: Medidas -->
+                    <p data-translate="producto_motorola_4_precio"><strong>Precio: $249.00 USD</strong></p>
+                    <p data-translate="producto_motorola_4_fecha"><small>Fecha de lanzamiento: 01/06/2020</small></p>
+                    <p data-translate="producto_motorola_4_peso"><small>Peso: 202 g</small></p>
+                    <p data-translate="producto_motorola_4_dimensiones"><small>Dimensiones: 169.2 x 76.0 x 9.4 mm</small></p>
                 </div>
             </div>
         </div>
@@ -341,10 +338,10 @@
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_5_title">Motorola Moto E</h5>
                     <p class="card-text" data-translate="producto_motorola_5_desc">Pantalla de 6.2" HD+, batería de 3550mAh, cámara dual con inteligencia artificial.</p>
-                    <p><strong>Precio: $149.00 USD</strong></p> <!-- Formato: Moneda -->
-                    <p>Fecha de lanzamiento: <time datetime="2020-04-01">01/04/2020</time></p> <!-- Formato: Fecha -->
-                    <p>Peso: 169 g</p> <!-- Formato: Números -->
-                    <p>Dimensiones: 159.77 x 75.73 x 8.6 mm</p> <!-- Formato: Medidas -->
+                    <p data-translate="producto_motorola_5_precio"><strong>Precio: $149.00 USD</strong></p>
+                    <p data-translate="producto_motorola_5_fecha"><small>Fecha de lanzamiento: 01/04/2020</small></p>
+                    <p data-translate="producto_motorola_5_peso"><small>Peso: 169 g</small></p>
+                    <p data-translate="producto_motorola_5_dimensiones"><small>Dimensiones: 159.77 x 75.73 x 8.6 mm</small></p>
                 </div>
             </div>
         </div>
@@ -355,17 +352,18 @@
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_6_title">Motorola Razr 5G</h5>
                     <p class="card-text" data-translate="producto_motorola_6_desc">Diseño plegable icónico, pantalla OLED de 6.2", cámara de 48MP con tecnología Quad Pixel, conectividad 5G.</p>
-                    <p><strong>Precio: $1399.00 USD</strong></p> <!-- Formato: Moneda -->
-                    <p>Fecha de lanzamiento: <time datetime="2020-11-01">01/11/2020</time></p> <!-- Formato: Fecha -->
-                    <p>Peso: 192 g</p> <!-- Formato: Números -->
-                    <p>Dimensiones: 169.2 x 72.6 x 7.9 mm</p> <!-- Formato: Medidas -->
-                    <p><strong>Resolución de cámara: 48MP</strong></p> <!-- Formato: Números -->
-                    <p><strong>Almacenamiento: 256GB</strong></p> <!-- Formato: Números -->
+                    <p data-translate="producto_motorola_6_precio"><strong>Precio: $1399.00 USD</strong></p>
+                    <p data-translate="producto_motorola_6_fecha"><small>Fecha de lanzamiento: 01/11/2020</small></p>
+                    <p data-translate="producto_motorola_6_peso"><small>Peso: 192 g</small></p>
+                    <p data-translate="producto_motorola_6_dimensiones"><small>Dimensiones: 169.2 x 72.6 x 7.9 mm</small></p>
+                    <p data-translate="producto_motorola_6_resolucion"><strong>Resolución de cámara: 48MP</strong></p>
+                    <p data-translate="producto_motorola_6_almacenamiento"><strong>Almacenamiento: 256GB</strong></p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 
 </div>
@@ -532,6 +530,10 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.userway.org/widget.js" data-account="kjnqkCfZx1" data-size="large"></script>
+
+
+
 <script src="js/main.js"></script>
 </body>
 </html>

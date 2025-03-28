@@ -1,8 +1,8 @@
 <?php
 // Conexión a la base de datos
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "mysql.webcindario.com";
+$username = "techshop";
+$password = "TechShop44";
 $dbname = "techshop";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
