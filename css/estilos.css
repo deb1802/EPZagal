@@ -1,5 +1,33 @@
+/* Hacer que el navbar siga el flujo de la página */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg,  #17a2b8, #0d6efd);
+    padding: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Para que siempre esté sobre el contenido */
+}
+/* Agregar espacio al contenido para evitar que quede oculto detrás del navbar */
 body {
+    padding-top: 150px; /* Ajustar según la altura del navbar */
     font-family: Arial, sans-serif;
+}
+/* Ajuste para el contenedor de productos cuando hay navbar fijo */
+.productos-container {
+    margin-top: 20px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 0;
+    }
+
+    body {
+        padding-top: 60px; /* Ajustar altura para móviles */
+    }
 }
 
 .opinion {  
@@ -34,7 +62,7 @@ body {
 }
 /* Navbar estilizado */
 .navbar {
-    background: linear-gradient(135deg, #696d6e, #696d6e); /* Degradado azul */
+    background: linear-gradient(135deg,  #17a2b8, #0d6efd); /* Degradado azul */
     padding: 15px 0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -43,7 +71,7 @@ body {
 .navbar-brand {
     font-size: 1.8rem;
     font-weight: bold;
-    color: white;
+    color: rgb(251, 252, 255);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -94,7 +122,7 @@ body {
 }
 
 .dropdown-item:hover {
-    background-color: #0056b3;
+    background-color: #676868;
 }
 
 /* Responsive: Asegurar que el menú sea accesible */

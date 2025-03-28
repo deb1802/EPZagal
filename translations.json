@@ -62,14 +62,26 @@
       "opinion_6_nombre": "Ana Torres",
       "opinion_6_texto": "\"Totalmente recomendable, todo llegó a tiempo y en buen estado.\"",
       
+
       "contacto_nombre": "Nombre",
-      "contacto_email": "Correo Electrónico",
+      "contacto_email": "Correo electrónico",
       "contacto_mensaje": "Mensaje",
       "contacto_boton": "Enviar",
-      
-      "footer_texto1": "&copy; 2025 TechShop. Todos los derechos reservados.",
-      "footer_texto2": "También visita:",
-      "footer_texto3": "nuestros amigos"
+
+      "footer_texto1": "© 2025 TechShop. Todos los derechos reservados.",
+      "footer_texto2": "Síguenos en redes sociales:",
+      "footer_texto3": "También visita:",
+      "footer_texto4": "Contacto:",
+      "footer_texto5": "Correo:",
+      "footer_texto6": "Teléfono: +52 123 456 7890",
+      "footer_texto7": "Dirección:",
+
+      "quejas": "Quejas de Usuarios",
+    "quejas_nombre": "Nombre",
+    "quejas_email": "Correo Electrónico",
+    "quejas_mensaje": "Queja",
+    "quejas_boton": "Enviar Queja",
+    "quejas_ver": "Mostrar Quejas"
     },
     "en": {
       "nosotros": "About Us",
@@ -139,8 +151,19 @@
       "contacto_mensaje": "Message",
       "contacto_boton": "Send",
       
-      "footer_texto": "&copy; 2025 TechShop. All rights reserved.",
-      "footer_texto2": "Also visit:",
-      "footer_texto3": "our friends"
+      "footer_texto1": "© 2025 TechShop. All rights reserved.",
+      "footer_texto2": "Follow us on social media:",
+      "footer_texto3": "Also visit:",
+      "footer_texto4": "Contact:",
+      "footer_texto5": "Email:",
+      "footer_texto6": "Phone: +52 123 456 7890",
+      "footer_texto7" : "Address:",
+      "quejas": "User Complaints",
+    "quejas_nombre": "Name",
+    "quejas_email": "Email",
+    "quejas_mensaje": "Complaint",
+    "quejas_boton": "Submit Complaint",
+    "quejas_ver": "View Complaints"
+
     }
   }
