@@ -30,6 +30,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#opiniones" data-translate="opiniones">Opiniones</a></li>
                             <li><a class="dropdown-item" href="#contacto" data-translate="contacto">Contáctanos</a></li>
+                            <li><a class="dropdown-item" href="#quejas" data-translate="queja">Quejas</a></li>
                         </ul>
                     </li>
                     <!-- Idioma -->
@@ -86,7 +87,7 @@
 </section>
 
 
-    <section id="productos" class="container py-5">
+<section id="productos" class="container py-5">
     <h2 class="text-center" data-translate="productos">Nuestros Productos</h2>
 
     <!-- Lista de Marcas -->
@@ -104,171 +105,154 @@
         </ul>
     </div>
 
-    <!-- Producto 1 -->
-<div class="col-md-4">
-    <div class="card">
-        <img src="img/T1.PNG" class="card-img-top" alt="Producto Apple 1">
-        <div class="card-body">
-            <h5 class="card-title" data-translate="producto_apple_1_title">iPhone 13 Pro</h5>
-            <p class="card-text" data-translate="producto_apple_1_desc">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
-            <p data-translate="producto_apple_1_precio"><strong>Precio: $999.00 USD</strong></p>
-            <p data-translate="producto_apple_1_fecha">Fecha de lanzamiento: 24/09/2021</p>
-            <p data-translate="producto_apple_1_peso">Peso: 204 g</p>
-            <p data-translate="producto_apple_1_hora_actualizacion">Hora de actualización: 14:30</p>
-        </div>
-    </div>
-</div>
+    <!-- Productos -->
+<!-- Productos --> 
+<div class="tab-content" id="productosTabContent">
 
-<!-- Producto 2 -->
-<div class="col-md-4">
-    <div class="card">
-        <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
-        <div class="card-body">
-            <h5 class="card-title" data-translate="producto_apple_2_title">MacBook Air M1</h5>
-            <p class="card-text" data-translate="producto_apple_2_desc">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
-            <p data-translate="producto_apple_2_precio"><strong>Precio: $1,099.00 USD</strong></p>
-            <p data-translate="producto_apple_2_fecha">Fecha de lanzamiento: 17/11/2020</p>
-            <p data-translate="producto_apple_2_peso">Peso: 1.29 kg</p>
-            <p data-translate="producto_apple_2_medidas">Medidas: 30.41 cm x 21.24 cm x 1.61 cm</p>
+    <!-- Apple -->
+    <div class="tab-pane fade show active" id="apple" role="tabpanel" aria-labelledby="apple-tab">
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/T1.PNG" class="card-img-top" alt="Producto Apple 1">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_apple_1_title">iPhone 13 Pro</h5>
+                        <p class="card-text" data-translate="producto_apple_1_desc">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
+                        <p data-translate="p1"><strong>$19,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_apple_2_title">MacBook Air M1</h5>
+                        <p class="card-text" data-translate="producto_apple_2_desc">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
+                        <p data-translate="p2"><strong>$22,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_apple_3_title">Apple Watch Series 7</h5>
+                        <p class="card-text" data-translate="producto_apple_3_desc">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
+                        <p data-translate="p3"><strong>$8,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_apple_4_title">iPad Pro 11</h5>
+                        <p class="card-text" data-translate="producto_apple_4_desc">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
+                        <p data-translate="p4"><strong>$17,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_apple_5_title">AirPods Pro</h5>
+                        <p class="card-text" data-translate="producto_apple_5_desc">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
+                        <p data-translate="p5"><strong>$5,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_apple_6_title">HomePod Mini</h5>
+                        <p class="card-text" data-translate="producto_apple_6_desc">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
+                        <p data-translate="p6"><strong>$2,199 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Producto 3 -->
-<div class="col-md-4">
-    <div class="card">
-        <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
-        <div class="card-body">
-            <h5 class="card-title" data-translate="producto_apple_3_title">Apple Watch Series 7</h5>
-            <p class="card-text" data-translate="producto_apple_3_desc">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
-            <p data-translate="producto_apple_3_precio"><strong>Precio: $399.00 USD</strong></p>
-            <p data-translate="producto_apple_3_fecha">Fecha de lanzamiento: 15/10/2021</p>
-            <p data-translate="producto_apple_3_peso">Peso: 32 g</p>
-            <p data-translate="producto_apple_3_medidas">Medidas: 41 mm x 35 mm x 10.7 mm</p>
-        </div>
-    </div>
-</div>
-
-<!-- Producto 4 -->
-<div class="col-md-4">
-    <div class="card">
-        <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
-        <div class="card-body">
-            <h5 class="card-title" data-translate="producto_apple_4_title">iPad Pro 11</h5>
-            <p class="card-text" data-translate="producto_apple_4_desc">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
-            <p data-translate="producto_apple_4_precio"><strong>Precio: $799.00 USD</strong></p>
-            <p data-translate="producto_apple_4_fecha">Fecha de lanzamiento: 20/05/2021</p>
-            <p data-translate="producto_apple_4_peso">Peso: 466 g</p>
-            <p data-translate="producto_apple_4_almacenamiento">Almacenamiento: 128GB - 2TB</p>
-        </div>
-    </div>
-</div>
-
-<!-- Producto 5 -->
-<div class="col-md-4">
-    <div class="card">
-        <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
-        <div class="card-body">
-            <h5 class="card-title" data-translate="producto_apple_5_title">AirPods Pro</h5>
-            <p class="card-text" data-translate="producto_apple_5_desc">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
-            <p data-translate="producto_apple_5_precio"><strong>Precio: $249.00 USD</strong></p>
-            <p data-translate="producto_apple_5_peso">Peso: 5.4 g (cada uno)</p>
-            <p data-translate="producto_apple_5_tiempo_carga">Tiempo de carga: 1 hora</p>
-        </div>
-    </div>
-</div>
-
-<!-- Producto 6 -->
-<div class="col-md-4">
-    <div class="card">
-        <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
-        <div class="card-body">
-            <h5 class="card-title" data-translate="producto_apple_6_title">HomePod Mini</h5>
-            <p class="card-text" data-translate="producto_apple_6_desc">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
-            <p data-translate="producto_apple_6_precio"><strong>Precio: $99.00 USD</strong></p>
-            <p data-translate="producto_apple_6_fecha">Fecha de lanzamiento: 16/11/2020</p>
-            <p data-translate="producto_apple_6_peso">Peso: 345 g</p>
-        </div>
-    </div>
-</div>
     <!-- Samsung -->
-<div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
-    <div class="row">
-        <!-- Producto 1 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_samsung_1_title">Samsung Galaxy S21</h5>
-                    <p class="card-text" data-translate="producto_samsung_1_desc">Un rayo de velocidad en tus manos: Pantalla Dynamic AMOLED, cámara triple y rendimiento Exynos.</p>
-                    <p data-translate="producto_samsung_1_precio"><strong>Precio: $799 USD</strong></p>
-                    <p data-translate="producto_samsung_1_fecha"><small>Fecha de lanzamiento: 29/01/2021</small></p>
+    <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_samsung_1_title">Samsung Galaxy S21</h5>
+                        <p class="card-text" data-translate="producto_samsung_1_desc">Pantalla Dynamic AMOLED, cámara triple, rendimiento Exynos.</p>
+                        <p ><strong data-translate="p7">$15,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Producto 2 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_samsung_2_title">Samsung Galaxy Note 20</h5>
-                    <p class="card-text" data-translate="producto_samsung_2_desc">El cuaderno digital del futuro: Pantalla AMOLED, cámara ultra alta resolución y S Pen incluido.</p>
-                    <p data-translate="producto_samsung_2_precio"><strong>Precio: $999 USD</strong></p>
-                    <p data-translate="producto_samsung_2_dimensiones"><small>Dimensiones: 161.6 x 75.2 x 8.3 mm</small></p>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_samsung_2_title">Samsung Galaxy Note 20</h5>
+                        <p class="card-text" data-translate="producto_samsung_2_desc">Pantalla AMOLED, cámara ultra alta resolución, S Pen incluido.</p>
+                        <p ><strong data-translate="p8">$22,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Producto 3 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/RE.PNG" class="card-img-top" alt="Producto Samsung 3">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_samsung_3_title">Samsung Galaxy Watch 4</h5>
-                    <p class="card-text" data-translate="producto_samsung_3_desc">El guardián de tu bienestar: Rendimiento rápido, monitoreo de salud avanzado y pantalla AMOLED.</p>
-                    <p data-translate="producto_samsung_3_precio"><strong>Precio: $249 USD</strong></p>
-                    <p data-translate="producto_samsung_3_autonomia"><small>Autonomía: Hasta 40 horas</small></p>
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/RE.PNG" class="card-img-top" alt="Producto Samsung 3">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_samsung_3_title">Samsung Galaxy Watch 4</h5>
+                        <p class="card-text" data-translate="producto_samsung_3_desc">Rendimiento rápido, monitoreo de salud avanzado, pantalla AMOLED.</p>
+                        <p ><strong data-translate="p9">$5,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Producto 4 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_samsung_4_title">Samsung Galaxy Tab S7</h5>
-                    <p class="card-text" data-translate="producto_samsung_4_desc">La ventana a tu creatividad: Pantalla LCD de alta resolución, procesador Snapdragon y S Pen incluido.</p>
-                    <p data-translate="producto_samsung_4_precio"><strong>Precio: $649 USD</strong></p>
-                    <p data-translate="producto_samsung_4_peso"><small>Peso: 498 g</small></p>
+            <!-- Producto 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_samsung_4_title">Samsung Galaxy Tab S7</h5>
+                        <p class="card-text" data-translate="producto_samsung_4_desc">Pantalla LCD de alta resolución, procesador Snapdragon, S Pen incluido.</p>
+                        <p ><strong data-translate="p10">$11,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Producto 5 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_samsung_5_title">Samsung Buds Pro</h5>
-                    <p class="card-text" data-translate="producto_samsung_5_desc">El sonido que te envuelve: Cancelación de ruido, resistencia al agua y ajuste ergonómico.</p>
-                    <p data-translate="producto_samsung_5_precio"><strong>Precio: $199 USD</strong></p>
-                    <p data-translate="producto_samsung_5_bateria"><small>Duración de batería: Hasta 8 horas (con carga completa)</small></p>
+            <!-- Producto 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_samsung_5_title">Samsung Buds Pro</h5>
+                        <p class="card-text" data-translate="producto_samsung_5_desc">Sonido envolvente, cancelación de ruido, resistencia al agua.</p>
+                        <p ><strong data-translate="p11">$3,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Producto 6 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_samsung_6_title">Samsung SmartThings Hub</h5>
-                    <p class="card-text" data-translate="producto_samsung_6_desc">El cerebro de tu hogar inteligente: Automatiza y controla tu entorno con compatibilidad total.</p>
-                    <p data-translate="producto_samsung_6_precio"><strong>Precio: $119 USD</strong></p>
-                    <p data-translate="producto_samsung_6_compatibilidad"><small>Compatibilidad: Alexa, Google Assistant, Zigbee, Z-Wave</small></p>
+            <!-- Producto 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="producto_samsung_6_title">Samsung SmartThings Hub</h5>
+                        <p class="card-text" data-translate="producto_samsung_6_desc">Automatiza tu hogar inteligente, compatible con Alexa y Google Assistant.</p>
+                        <p ><strong data-translate="p12">$2,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- Motorola -->
 <div class="tab-pane fade" id="motorola" role="tabpanel" aria-labelledby="motorola-tab">
@@ -279,12 +263,8 @@
                 <img src="img/moto1.PNG" class="card-img-top" alt="Producto Motorola 1">
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_1_title">Motorola Edge 20</h5>
-                    <p class="card-text" data-translate="producto_motorola_1_desc">Pantalla OLED de 6.7", tasa de refresco de 144Hz, cámara triple de 108MP, procesador Snapdragon 778G.</p>
-                    <p data-translate="producto_motorola_1_precio"><strong>Precio: $599.00 USD</strong></p>
-                    <p data-translate="producto_motorola_1_fecha"><small>Fecha de lanzamiento: 01/08/2021</small></p>
-                    <p data-translate="producto_motorola_1_peso"><small>Peso: 163 g</small></p>
-                    <p data-translate="producto_motorola_1_dimensiones"><small>Dimensiones: 163.3 x 76.0 x 7.9 mm</small></p>
-                    <p data-translate="producto_motorola_1_hora_actualizacion"><small>Hora de actualización: 14:30</small></p>
+                    <p class="card-text" data-translate="producto_motorola_1_desc">Pantalla OLED, cámara triple, procesador Snapdragon.</p>
+                    <p><strong data-translate="p13">$11,999 MXN</strong></p> <!-- Precio en formato mexicano -->
                 </div>
             </div>
         </div>
@@ -294,11 +274,8 @@
                 <img src="img/MOTO2.PNG" class="card-img-top" alt="Producto Motorola 2">
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_2_title">Motorola Moto G100</h5>
-                    <p class="card-text" data-translate="producto_motorola_2_desc">Pantalla FHD+ de 6.7", procesador Qualcomm Snapdragon 870, cámara cuádruple con sensor principal de 64MP.</p>
-                    <p data-translate="producto_motorola_2_precio"><strong>Precio: $399.00 USD</strong></p>
-                    <p data-translate="producto_motorola_2_fecha"><small>Fecha de lanzamiento: 01/03/2021</small></p>
-                    <p data-translate="producto_motorola_2_peso"><small>Peso: 207 g</small></p>
-                    <p data-translate="producto_motorola_2_dimensiones"><small>Dimensiones: 168.48 x 74.38 x 9.49 mm</small></p>
+                    <p class="card-text" data-translate="producto_motorola_2_desc">Pantalla FHD+, cámara cuádruple, rendimiento Qualcomm.</p>
+                    <p data-translate="p14"><strong>$7,999 MXN</strong></p> <!-- Precio en formato mexicano -->
                 </div>
             </div>
         </div>
@@ -308,12 +285,8 @@
                 <img src="img/MOTO3.PNG" class="card-img-top" alt="Producto Motorola 3">
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_3_title">Motorola Moto G Power</h5>
-                    <p class="card-text" data-translate="producto_motorola_3_desc">Batería de 5000mAh para hasta 3 días de uso, pantalla de 6.6" HD+, procesador octa-core Snapdragon.</p>
-                    <p data-translate="producto_motorola_3_precio"><strong>Precio: $199.00 USD</strong></p>
-                    <p data-translate="producto_motorola_3_fecha"><small>Fecha de lanzamiento: 01/02/2020</small></p>
-                    <p data-translate="producto_motorola_3_peso"><small>Peso: 199 g</small></p>
-                    <p data-translate="producto_motorola_3_dimensiones"><small>Dimensiones: 165.3 x 75.8 x 9.6 mm</small></p>
-                    <p data-translate="producto_motorola_3_bateria"><strong>Batería: 5000 mAh</strong></p>
+                    <p class="card-text" data-translate="producto_motorola_3_desc">Batería de larga duración, pantalla de 6.6", procesador octa-core.</p>
+                    <p data-translate="p15"><strong>$3,999 MXN</strong></p> <!-- Precio en formato mexicano -->
                 </div>
             </div>
         </div>
@@ -323,11 +296,8 @@
                 <img src="img/MOTO4.PNG" class="card-img-top" alt="Producto Motorola 4">
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_4_title">Motorola One Fusion+</h5>
-                    <p class="card-text" data-translate="producto_motorola_4_desc">Pantalla Max Vision de 6.5" FHD+, cámara de 64MP con Night Vision, batería de 5000mAh.</p>
-                    <p data-translate="producto_motorola_4_precio"><strong>Precio: $249.00 USD</strong></p>
-                    <p data-translate="producto_motorola_4_fecha"><small>Fecha de lanzamiento: 01/06/2020</small></p>
-                    <p data-translate="producto_motorola_4_peso"><small>Peso: 202 g</small></p>
-                    <p data-translate="producto_motorola_4_dimensiones"><small>Dimensiones: 169.2 x 76.0 x 9.4 mm</small></p>
+                    <p class="card-text" data-translate="producto_motorola_4_desc">Pantalla Max Vision, cámara de 64 MP, batería de 5000mAh.</p>
+                    <p data-translate="p16"><strong>$5,299 MXN</strong></p> <!-- Precio en formato mexicano -->
                 </div>
             </div>
         </div>
@@ -337,11 +307,8 @@
                 <img src="img/MOTO5.PNG" class="card-img-top" alt="Producto Motorola 5">
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_5_title">Motorola Moto E</h5>
-                    <p class="card-text" data-translate="producto_motorola_5_desc">Pantalla de 6.2" HD+, batería de 3550mAh, cámara dual con inteligencia artificial.</p>
-                    <p data-translate="producto_motorola_5_precio"><strong>Precio: $149.00 USD</strong></p>
-                    <p data-translate="producto_motorola_5_fecha"><small>Fecha de lanzamiento: 01/04/2020</small></p>
-                    <p data-translate="producto_motorola_5_peso"><small>Peso: 169 g</small></p>
-                    <p data-translate="producto_motorola_5_dimensiones"><small>Dimensiones: 159.77 x 75.73 x 8.6 mm</small></p>
+                    <p class="card-text" data-translate="producto_motorola_5_desc">Pantalla de 6.2", batería de 3550mAh, cámara dual.</p>
+                    <p data-translate="p17"><strong>$2,799 MXN</strong></p> <!-- Precio en formato mexicano -->
                 </div>
             </div>
         </div>
@@ -351,24 +318,12 @@
                 <img src="img/MOTO6.PNG" class="card-img-top" alt="Producto Motorola 6">
                 <div class="card-body">
                     <h5 class="card-title" data-translate="producto_motorola_6_title">Motorola Razr 5G</h5>
-                    <p class="card-text" data-translate="producto_motorola_6_desc">Diseño plegable icónico, pantalla OLED de 6.2", cámara de 48MP con tecnología Quad Pixel, conectividad 5G.</p>
-                    <p data-translate="producto_motorola_6_precio"><strong>Precio: $1399.00 USD</strong></p>
-                    <p data-translate="producto_motorola_6_fecha"><small>Fecha de lanzamiento: 01/11/2020</small></p>
-                    <p data-translate="producto_motorola_6_peso"><small>Peso: 192 g</small></p>
-                    <p data-translate="producto_motorola_6_dimensiones"><small>Dimensiones: 169.2 x 72.6 x 7.9 mm</small></p>
-                    <p data-translate="producto_motorola_6_resolucion"><strong>Resolución de cámara: 48MP</strong></p>
-                    <p data-translate="producto_motorola_6_almacenamiento"><strong>Almacenamiento: 256GB</strong></p>
+                    <p class="card-text" data-translate="producto_motorola_6_desc">Diseño plegable, pantalla OLED, cámara de 48 MP.</p>
+                    <p data-translate="p18"><strong>$27,999 MXN</strong></p> <!-- Precio en formato mexicano -->
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-
-
-</div>
-</div>
-</div>
 </div>
 </section>
 <section id="opiniones" class="container py-5">
@@ -382,19 +337,19 @@
                         <img src="img/pho1.avif" alt="Cliente 1">
                         <p class="nombre" data-translate="opinion_1_nombre">Deba Picafresa</p>
                         <p data-translate="opinion_1_texto">"Excelente servicio y productos de calidad. ¡Muy recomendado!"</p>
-                        <p><small>Fecha: <time datetime="2023-03-12">12/03/2023</time></small></p> <!-- Formato: Fecha -->
+                        <p data-translate="opinion_1_fecha"><small>Fecha: <time datetime="2023-03-12">12/03/2023</time></small></p> <!-- Formato: Fecha -->
                     </div>
                     <div class="opinion">
                         <img src="img/pho6.avif" alt="Cliente 2">
                         <p class="nombre" data-translate="opinion_2_nombre">Carlos Vergara</p>
                         <p data-translate="opinion_2_texto">"Rápida entrega y atención personalizada. ¡Volveré a comprar!"</p>
-                        <p><small>Fecha: <time datetime="2023-03-13">13/03/2023</time></small></p> <!-- Formato: Fecha -->
+                        <p data-translate="opinion_2_fecha"><small>Fecha: <time datetime="2023-03-13">13/03/2023</time></small></p> <!-- Formato: Fecha -->
                     </div>
                     <div class="opinion">
                         <img src="img/pho2.avif" alt="Cliente 3">
                         <p class="nombre" data-translate="opinion_3_nombre">Yessi Martinez</p>
                         <p data-translate="opinion_3_texto">"Me sorprendió la rapidez del envío y la calidad del producto. ¡Muy satisfecho!"</p>
-                        <p><small>Fecha: <time datetime="2023-03-14">14/03/2023</time></small></p> <!-- Formato: Fecha -->
+                        <p data-translate="opinion_3_fecha"><small>Fecha: <time datetime="2023-03-14">14/03/2023</time></small></p> <!-- Formato: Fecha -->
                     </div>
                 </div>
             </div>
@@ -406,19 +361,19 @@
                         <img src="img/pho3.avif" alt="Cliente 4">
                         <p class="nombre" data-translate="opinion_4_nombre">Laura Gómez</p>
                         <p data-translate="opinion_4_texto">"Gran experiencia de compra, el producto superó mis expectativas."</p>
-                        <p><small>Fecha: <time datetime="2023-03-15">15/03/2023</time></small></p> <!-- Formato: Fecha -->
+                        <p data-translate="opinion_4_fecha"><small>Fecha: <time datetime="2023-03-15">15/03/2023</time></small></p> <!-- Formato: Fecha -->
                     </div>
                     <div class="opinion">
                         <img src="img/pho5.avif" alt="Cliente 5">
                         <p class="nombre" data-translate="opinion_5_nombre">Mario Pérez</p>
                         <p data-translate="opinion_5_texto">"Buena calidad y excelente atención al cliente. ¡Volveré!"</p>
-                        <p><small>Fecha: <time datetime="2023-03-16">16/03/2023</time></small></p> <!-- Formato: Fecha -->
+                        <p data-translate="opinion_5_fecha"><small>Fecha: <time datetime="2023-03-16">16/03/2023</time></small></p> <!-- Formato: Fecha -->
                     </div>
                     <div class="opinion">
                         <img src="img/pho4.avif" alt="Cliente 6">
                         <p class="nombre" data-translate="opinion_6_nombre">Ana Torres</p>
                         <p data-translate="opinion_6_texto">"Totalmente recomendable, todo llegó a tiempo y en buen estado."</p>
-                        <p><small>Fecha: <time datetime="2023-03-17">17/03/2023</time></small></p> <!-- Formato: Fecha -->
+                        <p data-translate="opinion_6_fecha"><small>Fecha: <time datetime="2023-03-17">17/03/2023</time></small></p> <!-- Formato: Fecha -->
                     </div>
                 </div>
             </div>
@@ -509,6 +464,7 @@
 
             <!-- Columna 3: Dirección y mapa -->
             <div class="col-md-4 mb-3">
+                <script src="https://cdn.userway.org/widget.js" data-account="kjnqkEfZx0" data-size="large"></script>
                 <p data-translate="footer_texto7">Dirección:</p>
                 <p>Universidad Politécnica del Estado de Morelos</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.9391500921024!2d-99.14288538908876!3d18.88978048220292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce7436090d122b%3A0x2acb88c1b5c1452a!2sUniversidad%20Polit%C3%A9cnica%20del%20Estado%20de%20Morelos!5e0!3m2!1ses!2smx!4v1741582830053!5m2!1ses!2smx" 
@@ -527,10 +483,21 @@
     </div>
 </footer>
 
+<style>
+/* Estilos para posicionar el widget de accesibilidad */
+.userway-widget-container {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px;  /* Ajusta la distancia desde la parte derecha */
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+}
+</style>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.userway.org/widget.js" data-account="kjnqkCfZx1" data-size="large"></script>
+
 
 
 

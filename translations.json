@@ -4,6 +4,7 @@
       "productos": "Nuestros Productos",
       "opiniones": "Opiniones de Clientes",
       "contacto": "Contáctanos",
+      "queja": "Quejas",
       "mas_opciones": "Más opciones",
       "idioma": "Idioma",
       "nosotros_text_1": "En TechShop, nos apasiona la tecnología y trabajamos cada día para ofrecerte los mejores productos electrónicos del mercado. Desde smartphones y laptops hasta accesorios innovadores, seleccionamos cuidadosamente cada artículo para asegurarnos de que cumpla con los más altos estándares de calidad.",
@@ -22,6 +23,14 @@
       "producto_apple_5_desc": "Cancelación activa de ruido, sonido envolvente, cómoda adaptación.",
       "producto_apple_6_title": "HomePod Mini",
       "producto_apple_6_desc": "Sonido envolvente, control por voz, integra con tu hogar inteligente.",
+      "p1": "$19,999 MXN",
+      "p2": "$22,499 MXN",
+      "p3": "$8,499 MXN",
+      "p4": "$17,999 MXN",
+      "p5": "$5,499 MXN",
+      "p6": "$2,199 MXN",
+
+
       
       "producto_samsung_1_title": "Samsung Galaxy S21",
       "producto_samsung_1_desc": "Pantalla Dynamic AMOLED, cámara triple, rendimiento Exynos.",
@@ -35,7 +44,13 @@
       "producto_samsung_5_desc": "Sonido envolvente, cancelación de ruido, resistencia al agua.",
       "producto_samsung_6_title": "Samsung SmartThings Hub",
       "producto_samsung_6_desc": "Automatiza tu hogar inteligente, compatible con Alexa y Google Assistant.",
-      
+      "p7": "$15,499 MXN",
+      "p8": "$22,999 MXN",
+      "p9": "$5,499 MXN",
+      "p10": "$11,499 MXN",
+      "p11": "$3,499 MXN",
+      "p12": "$2,499 MXN",
+
       "producto_motorola_1_title": "Motorola Edge 20",
       "producto_motorola_1_desc": "Pantalla OLED, cámara triple, procesador Snapdragon.",
       "producto_motorola_2_title": "Motorola Moto G100",
@@ -48,7 +63,13 @@
       "producto_motorola_5_desc": "Pantalla de 6.2\", batería de 3550mAh, cámara dual.",
       "producto_motorola_6_title": "Motorola Razr 5G",
       "producto_motorola_6_desc": "Diseño plegable, pantalla OLED, cámara de 48 MP.",
-      
+      "p13": "$11,999 MXN",
+      "p14": "$7,999 MXN",
+      "p15": "$3,999 MXN",
+      "p16": "$5,299 MXN",
+      "p17": "$2,799 MXN",
+      "p18": "$27,999 MXN",
+
       "opinion_1_nombre": "Deba Picafresa",
       "opinion_1_texto": "\"Excelente servicio y productos de calidad. ¡Muy recomendado!\"",
       "opinion_2_nombre": "Carlos Vergara",
@@ -61,7 +82,12 @@
       "opinion_5_texto": "\"Buena calidad y excelente atención al cliente. ¡Volveré!\"",
       "opinion_6_nombre": "Ana Torres",
       "opinion_6_texto": "\"Totalmente recomendable, todo llegó a tiempo y en buen estado.\"",
-      
+      "opinion_1_fecha": "Fecha: 12/03/2023",
+      "opinion_2_fecha": "Fecha: 13/03/2023",
+      "opinion_3_fecha": "Fecha: 14/03/2023",
+      "opinion_4_fecha": "Fecha: 15/03/2023",
+      "opinion_5_fecha": "Fecha: 16/03/2023",
+      "opinion_6_fecha": "Fecha: 17/03/2023",
 
       "contacto_nombre": "Nombre",
       "contacto_email": "Correo electrónico",
@@ -88,6 +114,7 @@
       "productos": "Our Products",
       "opiniones": "Customer Reviews",
       "contacto": "Contact Us",
+      "queja": " complaints",
       "mas_opciones": "More options",
       "idioma": "Language",
       "nosotros_text_1": "At TechShop, we are passionate about technology and work every day to offer you the best electronic products on the market. From smartphones and laptops to innovative accessories, we carefully select each item to ensure it meets the highest quality standards.",
@@ -106,7 +133,13 @@
       "producto_apple_5_desc": "Active noise cancellation, surround sound, comfortable fit.",
       "producto_apple_6_title": "HomePod Mini",
       "producto_apple_6_desc": "Surround sound, voice control, integrates with your smart home.",
-      
+      "p1": "$1,111.06 USD",
+      "p2": "$1,249.94 USD",
+      "p3": "$472.72 USD",
+      "p4": "$999.94 USD",
+      "p5": "$305.50 USD",
+      "p6": "$122.72 USD",
+
       "producto_samsung_1_title": "Samsung Galaxy S21",
       "producto_samsung_1_desc": "Dynamic AMOLED display, triple camera, Exynos performance.",
       "producto_samsung_2_title": "Samsung Galaxy Note 20",
@@ -119,7 +152,13 @@
       "producto_samsung_5_desc": "Surround sound, noise cancellation, water resistance.",
       "producto_samsung_6_title": "Samsung SmartThings Hub",
       "producto_samsung_6_desc": "Automate your smart home, compatible with Alexa and Google Assistant.",
-      
+      "p7": "$861.06 USD",
+      "p8": "$1,277.72 USD",
+      "p9": "$305.50 USD",
+      "p10": "$638.83 USD",
+      "p11": "$194.94 USD",
+      "p12": "$138.83 USD",
+
       "producto_motorola_1_title": "Motorola Edge 20",
       "producto_motorola_1_desc": "OLED display, triple camera, Snapdragon processor.",
       "producto_motorola_2_title": "Motorola Moto G100",
@@ -132,7 +171,13 @@
       "producto_motorola_5_desc": "6.2\" display, 3550mAh battery, dual camera.",
       "producto_motorola_6_title": "Motorola Razr 5G",
       "producto_motorola_6_desc": "Foldable design, OLED display, 48 MP camera.",
-      
+      "p13": "$666.61 USD",
+      "p14": "$444.38 USD",
+      "p15": "$222.22 USD",
+      "p16": "$294.94 USD",
+      "p17": "$155.50 USD",
+      "p18": "$1,555.50 USD",
+
       "opinion_1_nombre": "Deba Picafresa",
       "opinion_1_texto": "\"Excellent service and quality products. Highly recommended!\"",
       "opinion_2_nombre": "Carlos Vergara",
@@ -145,6 +190,14 @@
       "opinion_5_texto": "\"Good quality and excellent customer service. I'll be back!\"",
       "opinion_6_nombre": "Ana Torres",
       "opinion_6_texto": "\"Totally recommendable, everything arrived on time and in good condition.\"",
+      "opinion_1_fecha": "12/03/2023",
+      "opinion_2_fecha": "Date: 03/13/2023",
+      "opinion_3_fecha": "Date: 03/14/2023",
+      "opinion_4_fecha": "Date: 03/15/2023",
+      "opinion_5_fecha": "Date: 03/16/2023",
+      "opinion_6_fecha": "Date: 03/17/2023",
+      
+      
       
       "contacto_nombre": "Name",
       "contacto_email": "Email",

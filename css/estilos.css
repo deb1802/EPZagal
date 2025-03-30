@@ -1,103 +1,31 @@
-/* Hacer que el navbar siga el flujo de la página */
+/* ======================== */
+/* Estilos Generales */
+/* ======================== */
+body {
+    padding-top: 160px; /* Ajuste según la altura del navbar */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ======================== */
+/* Navbar Fijo */
+/* ======================== */
+
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: linear-gradient(135deg,  #17a2b8, #0d6efd);
-    padding: 15px 0;
+    padding: 19px 0;   
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Para que siempre esté sobre el contenido */
-}
-/* Agregar espacio al contenido para evitar que quede oculto detrás del navbar */
-body {
-    padding-top: 150px; /* Ajustar según la altura del navbar */
-    font-family: Arial, sans-serif;
-}
-/* Ajuste para el contenedor de productos cuando hay navbar fijo */
-.productos-container {
-    margin-top: 20px;
-}
-
-/* Ajustes responsivos */
-@media (max-width: 768px) {
-    .navbar {
-        padding: 10px 0; /* Reducir el padding */
-    }
-
-    .navbar-brand {
-        font-size: 1.5rem; /* Hacer el logo un poco más pequeño */
-    }
-
-    .navbar-brand img {
-        width:20px; /* Reducir el tamaño del logo */
-        height:20px;
-    }
-}
-@media (max-width: 768px) {
-    .navbar-toggler {
-        padding: 5px;
-        font-size: 1rem;
-    }
-
-    .navbar-toggler-icon {
-        width: 25px;
-        height: 25px;
-    }
-}
-@media (max-width: 768px) {
-    .userway-widget {
-        top: 10px; /* Ajusta según sea necesario */
-        right: 10px; /* Asegura que no bloquee el botón */
-    }
-}
-@media (max-width: 768px) {
-    body {
-        padding-top: 80px; /* Reducir espacio en móviles */
-    }
-}
-
-
-.opinion {  
-    text-align: center;
-    padding: 20px;
-    width: 280px;
-    background: #d6e5f5;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.opinion img {
-    width: 90px;  
-    height: 90px;  
-    border-radius: 50%;
-    object-fit: cover;
-}
-/* Agregar margen inferior a cada tarjeta */
-.card {
+    z-index: 1000;
     margin-bottom: 20px;
-}
-
-/* Si las tarjetas están dentro de un contenedor con "display: flex", aplicar gap */
-.productos-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Espacio entre tarjetas */
-}
-/* Navbar estilizado */
-.navbar {
-    background: linear-gradient(135deg,  #17a2b8, #0d6efd); /* Degradado azul */
-    padding: 15px 0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Marca y logo */
 .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     font-weight: bold;
     color: rgb(251, 252, 255);
     display: flex;
@@ -109,17 +37,18 @@ body {
 .navbar-brand img {
     border-radius: 50%;
     border: 2px solid white;
+    width: 100px;
+    height: 100px;
 }
 
-/* Color y efectos en los enlaces */
+/* Links del Navbar */
 .navbar-nav .nav-link {
     color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 700;
     transition: color 0.3s ease-in-out;
 }
 
-/* Efecto hover */
 .navbar-nav .nav-link:hover {
     color: #4d4f4f;
 }
@@ -133,31 +62,17 @@ body {
 .navbar-toggler-icon {
     background-color: white;
     border-radius: 5px;
+    width: 25px;
+    height: 25px;
 }
 
-/* Dropdown */
-.nav-item .dropdown-menu {
-    background-color: #4b4d4e;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-item {
-    color: white;
-    font-weight: bold;
-    transition: background 0.3s ease-in-out;
-}
-
-.dropdown-item:hover {
-    background-color: #676868;
-}
-
-/* Responsive: Asegurar que el menú sea accesible */
+/* ======================== */
+/* Ajustes Responsivos del Navbar */
+/* ======================== */
 @media (max-width: 992px) {
     .navbar-collapse {
         background: linear-gradient(135deg, #17a2b8, #0d6efd);
-        padding:50px;
+        padding: 20px;
         border-radius: 10px;
     }
 
@@ -170,30 +85,34 @@ body {
     }
 }
 
-/* Para pantallas más pequeñas, asegurarse de que haya separación */
 @media (max-width: 768px) {
-    .productos-container {
-        flex-direction: column;
-        gap: 15px;
+    .navbar {
+        padding: 10px 0;
+    }
+
+    body {
+        padding-top: 70px;
     }
 }
-.opinion .nombre {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #333;
+
+/* ======================== */
+/* Contenedor de Productos */
+/* ======================== */
+
+/* Agregar margen inferior a cada tarjeta */
+.card {
+    margin-bottom: 20px;
 }
 
-/* Ajustes para el carrusel */
-#carouselOpiniones .carousel-inner {
+/* Si las tarjetas están dentro de un contenedor con "display: flex", aplicar gap */
+.productos-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas en la fila */
 }
 
-.carousel-item {
-    flex: 0 0 100%; /* Cada slide ocupa todo el ancho del contenedor */
-    text-align: center;
-}
-
+/* Estilo para las imágenes de productos */
 .card img {
     width: 100%; /* La imagen se ajusta al ancho de la card */
     height: 200px; /* Mantiene una altura uniforme */
@@ -202,24 +121,29 @@ body {
     background-color: #fff; /* Fondo blanco por si la imagen tiene transparencia */
 }
 
-.nosotros-container {
-    border: 2px dashed #000; /* Borde punteado negro */
-    padding: 20px; /* Espaciado interno */
-    margin: 20px auto; /* Margen para centrar */
-    max-width: 800px; /* Ancho máximo */
-    text-align: center; /* Centrar el texto */
-    background-color: #f9f9f9; /* Fondo gris claro */
-    border-radius: 10px; /* Bordes redondeados */
+/* Diseño responsivo de las tarjetas */
+@media (max-width: 768px) {
+    .productos-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 100%; /* Las tarjetas ocupan todo el ancho */
+    }
 }
+
+/* ======================== */
 /* Sección de Productos */
+/* ======================== */
 #productos {
     background-color: #f9f9f9;
     padding: 60px 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Título estilizado */
 #productos h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -229,7 +153,6 @@ body {
     padding-bottom: 10px;
 }
 
-/* Línea decorativa debajo del título */
 #productos h2::after {
     content: "";
     width: 50%;
@@ -242,7 +165,7 @@ body {
     border-radius: 2px;
 }
 
-/* Estilo de las pestañas de marcas */
+/* Pestañas de marcas */
 .nav-pills .nav-link {
     color: #333;
     font-weight: bold;
@@ -252,20 +175,20 @@ body {
     border: 2px solid transparent;
 }
 
-/* Efecto hover */
 .nav-pills .nav-link:hover {
     background-color: #007bff;
     color: white;
 }
 
-/* Activo */
 .nav-pills .nav-link.active {
     background-color: #007bff;
     color: white;
     border: 2px solid #0056b3;
 }
 
-/* Diseño responsivo */
+/* ======================== */
+/* Ajustes Responsivos */
+/* ======================== */
 @media (max-width: 768px) {
     #productos h2 {
         font-size: 1.8rem;
@@ -284,14 +207,74 @@ body {
         padding: 8px 15px;
         font-size: 0.9rem;
     }
-}
 
+    .productos-container {
+        flex-direction: column;
+        gap: 15px;
+    }
 
-/* Para pantallas pequeñas, las opiniones se apilan en columna */
-@media (max-width: 768px) {
     .d-flex {
         flex-direction: column;
         align-items: center;
     }
 }
 
+/* ======================== */
+/* Opiniones y Carrusel */
+/* ======================== */
+.opinion {
+    text-align: center;
+    padding: 20px;
+    width: 280px;
+    background: #d6e5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.opinion img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.opinion .nombre {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Ajustes para el carrusel */
+#carouselOpiniones .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+/* ======================== */
+/* Sección de "Nosotros" */
+/* ======================== */
+.nosotros-container {
+    border: 2px dashed #000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+/* Estilos para posicionar el widget de accesibilidad */
+.userway-widget-container {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px;  /* Ajusta la distancia desde la parte derecha */
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+}
