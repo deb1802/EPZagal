@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/logoshop.png" alt="Logo" width="100" height="100" class="me-2"> 
+                <img src="img/za.png" alt="Logo" width="100" height="100" class="me-2"> 
                 <h1><b>TechShop </b></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -106,262 +106,263 @@
     </div>
 
     <!-- Productos -->
-<!-- Productos --> 
-<div class="tab-content" id="productosTabContent">
+    <!-- Productos --> 
+    <div class="tab-content" id="productosTabContent">
 
-    <!-- Apple -->
-    <div class="tab-pane fade show active" id="apple" role="tabpanel" aria-labelledby="apple-tab">
-        <div class="row">
-            <!-- Producto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/T1.PNG" class="card-img-top" alt="Producto Apple 1">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_apple_1_title">iPhone 13 Pro</h5>
-                        <p class="card-text" data-translate="producto_apple_1_desc">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
-                        <p data-translate="p1"><strong>$19,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_1">Peso: 204 g</p> 
-                        <p data-translate="p1_">Dimensiones: 169.2 x 76.0 x 9.4 mm</p> 
+        <!-- Apple -->
+        <div class="tab-pane fade show active" id="apple" role="tabpanel" aria-labelledby="apple-tab">
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/T1.PNG" class="card-img-top" alt="Producto Apple 1">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_apple_1_title">iPhone 13 Pro</h5>
+                            <p class="card-text" data-translate="producto_apple_1_desc">Pantalla Super Retina, cámara triple, rendimiento A15 Bionic.</p>
+                            <p data-translate="p1"><strong>$19,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_1">Peso: 204 g</p> 
+                            <p data-translate="p1_">Dimensiones: 169.2 x 76.0 x 9.4 mm</p> 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Producto 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_apple_2_title">MacBook Air M1</h5>
-                        <p class="card-text" data-translate="producto_apple_2_desc">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
-                        <p data-translate="p2"><strong>$22,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_2">Peso: 1.29 kg</p> 
-                        <p data-translate="p2_">Dimensiones: 159.77 x 75.73 x 8.6 mm</p> 
+                <!-- Producto 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/C1.PNG" class="card-img-top" alt="Producto Apple 2">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_apple_2_title">MacBook Air M1</h5>
+                            <p class="card-text" data-translate="producto_apple_2_desc">Ultra delgado, potente procesador M1, hasta 18 horas de batería.</p>
+                            <p data-translate="p2"><strong>$22,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_2">Peso: 1.29 kg</p> 
+                            <p data-translate="p2_">Dimensiones: 159.77 x 75.73 x 8.6 mm</p> 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Producto 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_apple_3_title">Apple Watch Series 7</h5>
-                        <p class="card-text" data-translate="producto_apple_3_desc">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
-                        <p data-translate="p3"><strong>$8,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_3">Peso: 32 g</p> 
-                        <p data-translate="p3_">Dimensiones: 169.2 x 72.6 x 7.9 mm</p>
+                <!-- Producto 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/ap1.PNG" class="card-img-top" alt="Producto Apple 3">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_apple_3_title">Apple Watch Series 7</h5>
+                            <p class="card-text" data-translate="producto_apple_3_desc">Pantalla más grande, resistencia al agua, monitoreo de salud.</p>
+                            <p data-translate="p3"><strong>$8,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_3">Peso: 32 g</p> 
+                            <p data-translate="p3_">Dimensiones: 169.2 x 72.6 x 7.9 mm</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Producto 4 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_apple_4_title">iPad Pro 11</h5>
-                        <p class="card-text" data-translate="producto_apple_4_desc">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
-                        <p data-translate="p4"><strong>$17,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_4">Peso: 466 g</p> 
-                        <p data-translate="p4_">Dimensiones: 163.3 x 76.0 x 7.9 mm</p>
+                <!-- Producto 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/c2.PNG" class="card-img-top" alt="Producto Apple 4">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_apple_4_title">iPad Pro 11</h5>
+                            <p class="card-text" data-translate="producto_apple_4_desc">Pantalla Liquid Retina, chip M1, cámaras profesionales.</p>
+                            <p data-translate="p4"><strong>$17,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_4">Peso: 466 g</p> 
+                            <p data-translate="p4_">Dimensiones: 163.3 x 76.0 x 7.9 mm</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Producto 5 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_apple_5_title">AirPods Pro</h5>
-                        <p class="card-text" data-translate="producto_apple_5_desc">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
-                        <p data-translate="p5"><strong>$5,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_5">Peso: 5.4 g (cada uno)</p> 
-                        <p data-translate="p5_">Dimensiones: 168.48 x 74.38 x 9.49 mm</p>
+                <!-- Producto 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/audi.PNG" class="card-img-top" alt="Producto Apple 5">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_apple_5_title">AirPods Pro</h5>
+                            <p class="card-text" data-translate="producto_apple_5_desc">Cancelación activa de ruido, sonido envolvente, cómoda adaptación.</p>
+                            <p data-translate="p5"><strong>$5,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_5">Peso: 5.4 g (cada uno)</p> 
+                            <p data-translate="p5_">Dimensiones: 168.48 x 74.38 x 9.49 mm</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Producto 6 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_apple_6_title">HomePod Mini</h5>
-                        <p class="card-text" data-translate="producto_apple_6_desc">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
-                        <p data-translate="p6"><strong>$2,199 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_6">Peso: 345 g</p> 
-                        <p data-translate="p6_">Dimensiones: 165.3 x 75.8 x 9.6 mm</p>
+                <!-- Producto 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/home.PNG" class="card-img-top" alt="Producto Apple 6">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_apple_6_title">HomePod Mini</h5>
+                            <p class="card-text" data-translate="producto_apple_6_desc">Sonido envolvente, control por voz, integra con tu hogar inteligente.</p>
+                            <p data-translate="p6"><strong>$2,199 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_6">Peso: 345 g</p> 
+                            <p data-translate="p6_">Dimensiones: 165.3 x 75.8 x 9.6 mm</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    
+        <!-- Samsung -->
+        <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_samsung_1_title">Samsung Galaxy S21</h5>
+                            <p class="card-text" data-translate="producto_samsung_1_desc">Pantalla Dynamic AMOLED, cámara triple, rendimiento Exynos.</p>
+                            <p ><strong data-translate="p7">$15,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_7">Peso: 204 g</p> 
+                            <p data-translate="p7_">Dimensiones: 169.2 x 76.0 x 9.4 mm</p> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_samsung_2_title">Samsung Galaxy Note 20</h5>
+                            <p class="card-text" data-translate="producto_samsung_2_desc">Pantalla AMOLED, cámara ultra alta resolución, S Pen incluido.</p>
+                            <p ><strong data-translate="p8">$22,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_8">Peso: 1.29 kg</p>  
+                            <p data-translate="p8_">Dimensiones: 159.77 x 75.73 x 8.6 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/RE.PNG" class="card-img-top" alt="Producto Samsung 3">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_samsung_3_title">Samsung Galaxy Watch 4</h5>
+                            <p class="card-text" data-translate="producto_samsung_3_desc">Rendimiento rápido, monitoreo de salud avanzado, pantalla AMOLED.</p>
+                            <p ><strong data-translate="p9">$5,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_9">Peso: 32 g</p> 
+                            <p data-translate="p9_">Dimensiones: 169.2 x 72.6 x 7.9 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_samsung_4_title">Samsung Galaxy Tab S7</h5>
+                            <p class="card-text" data-translate="producto_samsung_4_desc">Pantalla LCD de alta resolución, procesador Snapdragon, S Pen incluido.</p>
+                            <p ><strong data-translate="p10">$11,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_10">Peso: 466 g</p>
+                            <p data-translate="p10_">Dimensiones: 163.3 x 76.0 x 7.9 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_samsung_5_title">Samsung Buds Pro</h5>
+                            <p class="card-text" data-translate="producto_samsung_5_desc">Sonido envolvente, cancelación de ruido, resistencia al agua.</p>
+                            <p ><strong data-translate="p11">$3,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_11">Peso: 5.4 g (cada uno)</p>
+                            <p data-translate="p11_">Dimensiones: 168.48 x 74.38 x 9.49 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_samsung_6_title">Samsung SmartThings Hub</h5>
+                            <p class="card-text" data-translate="producto_samsung_6_desc">Automatiza tu hogar inteligente, compatible con Alexa y Google Assistant.</p>
+                            <p ><strong data-translate="p12">$2,499 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_12">Peso: 345 g</p> 
+                            <p data-translate="p12_">Dimensiones: 165.3 x 75.8 x 9.6 mm</p>
 
-    <!-- Samsung -->
-    <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
-        <div class="row">
-            <!-- Producto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/sam1.PNG" class="card-img-top" alt="Producto Samsung 1">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_samsung_1_title">Samsung Galaxy S21</h5>
-                        <p class="card-text" data-translate="producto_samsung_1_desc">Pantalla Dynamic AMOLED, cámara triple, rendimiento Exynos.</p>
-                        <p ><strong data-translate="p7">$15,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_7">Peso: 204 g</p> 
-                        <p data-translate="p7_">Dimensiones: 169.2 x 76.0 x 9.4 mm</p> 
-                    </div>
-                </div>
-            </div>
-            <!-- Producto 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/note.PNG" class="card-img-top" alt="Producto Samsung 2">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_samsung_2_title">Samsung Galaxy Note 20</h5>
-                        <p class="card-text" data-translate="producto_samsung_2_desc">Pantalla AMOLED, cámara ultra alta resolución, S Pen incluido.</p>
-                        <p ><strong data-translate="p8">$22,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_8">Peso: 1.29 kg</p>  
-                        <p data-translate="p8_">Dimensiones: 159.77 x 75.73 x 8.6 mm</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Producto 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/RE.PNG" class="card-img-top" alt="Producto Samsung 3">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_samsung_3_title">Samsung Galaxy Watch 4</h5>
-                        <p class="card-text" data-translate="producto_samsung_3_desc">Rendimiento rápido, monitoreo de salud avanzado, pantalla AMOLED.</p>
-                        <p ><strong data-translate="p9">$5,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_9">Peso: 32 g</p> 
-                        <p data-translate="p9_">Dimensiones: 169.2 x 72.6 x 7.9 mm</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Producto 4 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/ta.PNG" class="card-img-top" alt="Producto Samsung 4">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_samsung_4_title">Samsung Galaxy Tab S7</h5>
-                        <p class="card-text" data-translate="producto_samsung_4_desc">Pantalla LCD de alta resolución, procesador Snapdragon, S Pen incluido.</p>
-                        <p ><strong data-translate="p10">$11,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_10">Peso: 466 g</p>
-                        <p data-translate="p10_">Dimensiones: 163.3 x 76.0 x 7.9 mm</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Producto 5 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/au.PNG" class="card-img-top" alt="Producto Samsung 5">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_samsung_5_title">Samsung Buds Pro</h5>
-                        <p class="card-text" data-translate="producto_samsung_5_desc">Sonido envolvente, cancelación de ruido, resistencia al agua.</p>
-                        <p ><strong data-translate="p11">$3,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_11">Peso: 5.4 g (cada uno)</p>
-                        <p data-translate="p11_">Dimensiones: 168.48 x 74.38 x 9.49 mm</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Producto 6 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/ho.PNG" class="card-img-top" alt="Producto Samsung 6">
-                    <div class="card-body">
-                        <h5 class="card-title" data-translate="producto_samsung_6_title">Samsung SmartThings Hub</h5>
-                        <p class="card-text" data-translate="producto_samsung_6_desc">Automatiza tu hogar inteligente, compatible con Alexa y Google Assistant.</p>
-                        <p ><strong data-translate="p12">$2,499 MXN</strong></p> <!-- Precio en formato mexicano -->
-                        <p data-translate="p_12">Peso: 345 g</p> 
-                        <p data-translate="p12_">Dimensiones: 165.3 x 75.8 x 9.6 mm</p>
-
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
 <!-- Motorola -->
-<div class="tab-pane fade" id="motorola" role="tabpanel" aria-labelledby="motorola-tab">
-    <div class="row">
-        <!-- Producto 1 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/moto1.PNG" class="card-img-top" alt="Producto Motorola 1">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_motorola_1_title">Motorola Edge 20</h5>
-                    <p class="card-text" data-translate="producto_motorola_1_desc">Pantalla OLED, cámara triple, procesador Snapdragon.</p>
-                    <p><strong data-translate="p13">$11,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                    <p data-translate="p_13">Peso: 204 g</p> 
-                    <p data-translate="p13_">Dimensiones: 169.2 x 76.0 x 9.4 mm</p> 
+        <div class="tab-pane fade" id="motorola" role="tabpanel" aria-labelledby="motorola-tab">
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/moto1.PNG" class="card-img-top" alt="Producto Motorola 1">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_motorola_1_title">Motorola Edge 20</h5>
+                            <p class="card-text" data-translate="producto_motorola_1_desc">Pantalla OLED, cámara triple, procesador Snapdragon.</p>
+                            <p><strong data-translate="p13">$11,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_13">Peso: 204 g</p> 
+                            <p data-translate="p13_">Dimensiones: 169.2 x 76.0 x 9.4 mm</p> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/MOTO2.PNG" class="card-img-top" alt="Producto Motorola 2">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_motorola_2_title">Motorola Moto G100</h5>
+                            <p class="card-text" data-translate="producto_motorola_2_desc">Pantalla FHD+, cámara cuádruple, rendimiento Qualcomm.</p>
+                            <p data-translate="p14"><strong>$7,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_14">Peso: 1.29 kg</p> 
+                            <p data-translate="p14_">Dimensiones: 159.77 x 75.73 x 8.6 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/MOTO3.PNG" class="card-img-top" alt="Producto Motorola 3">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_motorola_3_title">Motorola Moto G Power</h5>
+                            <p class="card-text" data-translate="producto_motorola_3_desc">Batería de larga duración, pantalla de 6.6", procesador octa-core.</p>
+                            <p data-translate="p15"><strong>$3,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_15">Peso: 32 g</p> 
+                            <p data-translate="p15_">Dimensiones: 169.2 x 72.6 x 7.9 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/MOTO4.PNG" class="card-img-top" alt="Producto Motorola 4">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_motorola_4_title">Motorola One Fusion+</h5>
+                            <p class="card-text" data-translate="producto_motorola_4_desc">Pantalla Max Vision, cámara de 64 MP, batería de 5000mAh.</p>
+                            <p data-translate="p16"><strong>$5,299 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_16">Peso: 466 g</p> 
+                            <p data-translate="p16_">Dimensiones: 163.3 x 76.0 x 7.9 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/MOTO5.PNG" class="card-img-top" alt="Producto Motorola 5">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_motorola_5_title">Motorola Moto E</h5>
+                            <p class="card-text" data-translate="producto_motorola_5_desc">Pantalla de 6.2", batería de 3550mAh, cámara dual.</p>
+                            <p data-translate="p17"><strong>$2,799 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_17">Peso: 500 g</p> 
+                            <p data-translate="p17_">Dimensiones: 168.48 x 74.38 x 9.49 mm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/MOTO6.PNG" class="card-img-top" alt="Producto Motorola 6">
+                        <div class="card-body">
+                            <h5 class="card-title" data-translate="producto_motorola_6_title">Motorola Razr 5G</h5>
+                            <p class="card-text" data-translate="producto_motorola_6_desc">Diseño plegable, pantalla OLED, cámara de 48 MP.</p>
+                            <p data-translate="p18"><strong>$27,999 MXN</strong></p> <!-- Precio en formato mexicano -->
+                            <p data-translate="p_18">Peso: 345 g</p> 
+                            <p data-translate="p18_">Dimensiones: 165.3 x 75.8 x 9.6 mm</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Producto 2 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/MOTO2.PNG" class="card-img-top" alt="Producto Motorola 2">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_motorola_2_title">Motorola Moto G100</h5>
-                    <p class="card-text" data-translate="producto_motorola_2_desc">Pantalla FHD+, cámara cuádruple, rendimiento Qualcomm.</p>
-                    <p data-translate="p14"><strong>$7,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                    <p data-translate="p_14">Peso: 1.29 kg</p> 
-                    <p data-translate="p14_">Dimensiones: 159.77 x 75.73 x 8.6 mm</p>
-                </div>
-            </div>
-        </div>
-        <!-- Producto 3 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/MOTO3.PNG" class="card-img-top" alt="Producto Motorola 3">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_motorola_3_title">Motorola Moto G Power</h5>
-                    <p class="card-text" data-translate="producto_motorola_3_desc">Batería de larga duración, pantalla de 6.6", procesador octa-core.</p>
-                    <p data-translate="p15"><strong>$3,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                    <p data-translate="p_15">Peso: 32 g</p> 
-                    <p data-translate="p15_">Dimensiones: 169.2 x 72.6 x 7.9 mm</p>
-                </div>
-            </div>
-        </div>
-        <!-- Producto 4 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/MOTO4.PNG" class="card-img-top" alt="Producto Motorola 4">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_motorola_4_title">Motorola One Fusion+</h5>
-                    <p class="card-text" data-translate="producto_motorola_4_desc">Pantalla Max Vision, cámara de 64 MP, batería de 5000mAh.</p>
-                    <p data-translate="p16"><strong>$5,299 MXN</strong></p> <!-- Precio en formato mexicano -->
-                    <p data-translate="p_16">Peso: 466 g</p> 
-                    <p data-translate="p16_">Dimensiones: 163.3 x 76.0 x 7.9 mm</p>
-                </div>
-            </div>
-        </div>
-        <!-- Producto 5 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/MOTO5.PNG" class="card-img-top" alt="Producto Motorola 5">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_motorola_5_title">Motorola Moto E</h5>
-                    <p class="card-text" data-translate="producto_motorola_5_desc">Pantalla de 6.2", batería de 3550mAh, cámara dual.</p>
-                    <p data-translate="p17"><strong>$2,799 MXN</strong></p> <!-- Precio en formato mexicano -->
-                    <p data-translate="p_17">Peso: 500 g</p> 
-                    <p data-translate="p17_">Dimensiones: 168.48 x 74.38 x 9.49 mm</p>
-                </div>
-            </div>
-        </div>
-        <!-- Producto 6 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/MOTO6.PNG" class="card-img-top" alt="Producto Motorola 6">
-                <div class="card-body">
-                    <h5 class="card-title" data-translate="producto_motorola_6_title">Motorola Razr 5G</h5>
-                    <p class="card-text" data-translate="producto_motorola_6_desc">Diseño plegable, pantalla OLED, cámara de 48 MP.</p>
-                    <p data-translate="p18"><strong>$27,999 MXN</strong></p> <!-- Precio en formato mexicano -->
-                    <p data-translate="p_18">Peso: 345 g</p> 
-                    <p data-translate="p18_">Dimensiones: 165.3 x 75.8 x 9.6 mm</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </div>    
 </section>
 <section id="opiniones" class="container py-5">
     <h2 class="text-center" data-translate="opiniones">Opiniones de Clientes</h2>
@@ -517,6 +518,9 @@
         <div class="row mt-3">
             <p data-translate="footer_texto1">&copy; 2025 TechShop. Todos los derechos reservados.</p>
         </div>
+        <a href="https://wa.me/7775368702" class="whatsapp-button" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_j6zKHu8BEYzvw9sK3O5kVj2jE5xA0NNdYw&s" alt="WhatsApp">
+        </a>
     </div>
 </footer>
 
