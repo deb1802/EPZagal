@@ -1,5 +1,5 @@
 <?php
-// Incluir conexión a la base de datos
+// Conexión
 $servername = "mysql.webcindario.com";
 $username = "techshop";
 $password = "TechShop44";
@@ -7,15 +7,32 @@ $dbname = "techshop";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verificar conexión
+// Verifica conexión
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-// Consultar todas las quejas
-$sql = "SELECT * FROM quejas ORDER BY fecha DESC";
-$result = $conn->query($sql);
+// Verifica si se envió un ID por GET
+if (!isset($_GET['id'])) {
+    die("ID de queja no proporcionado.");
+}
+
+$id = intval($_GET['id']);
+
+// Consulta la queja
+$sql = "SELECT * FROM quejas WHERE id = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $id);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows === 0) {
+    die("Queja no encontrada.");
+}
+
+$row = $result->fetch_assoc();
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>  
@@ -23,7 +40,7 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="title">Tienda de Electrónicos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
 
@@ -68,39 +85,33 @@ $result = $conn->query($sql);
         </div>
     </div>
 </nav>
-<div class="container">
-<h2 class="h2lis">Lista de Quejas</h2>
-<?php
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        echo "<div class='queja'>";
-        echo "<h5>" . $row['nombre'] . " <span class='text-muted'>(" . $row['email'] . ")</span></h5>";
-        echo "<p><strong>Queja:</strong> " . $row['queja'] . "</p>";
-        echo "<p class='fecha'><strong>Fecha:</strong> " . $row['fecha'] . "</p>";
-        
-        // Botones
-        echo "<div class='mb-3'>";
-        // Botón Modificar
-        echo "<a href='modificar_queja.php?id=" . $row['id'] . "' class='btn btn-warning btn-sm me-2'>Modificar</a>";
     
-        // Botón Eliminar con confirmación
-        echo "<form action='eliminar_queja.php' method='POST' style='display:inline;' onsubmit='return confirm(\"¿Estás seguro de eliminar esta queja?\");'>";
-        echo "<input type='hidden' name='id' value='" . $row['id'] . "'>";
-        echo "<button type='submit' class='btn btn-danger btn-sm'>Eliminar</button>";
-        echo "</form>";
-        echo "</div>";
-    
-        echo "</div><hr>";
-    }
-} else {
-    echo "<p class='text-center'>No hay quejas registradas.</p>";
-}
-$conn->close();
-?>
+    <div class="container-form">
+        <form action="actualizar_queja.php" method="POST">
+            <h2 class="text-center">Editar Queja</h2>
+            <input type="hidden" name="id" value="<?= $row['id'] ?>">
 
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" name="nombre" value="<?= htmlspecialchars($row['nombre']) ?>" required>
+            </div>
 
-</div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo:</label>
+                <input type="email" class="form-control" name="email" value="<?= htmlspecialchars($row['email']) ?>" required>
+            </div>
 
+            <div class="mb-3">
+                <label for="queja" class="form-label">Queja:</label>
+                <textarea class="form-control" name="queja" rows="4" required><?= htmlspecialchars($row['queja']) ?></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+            <a href="lista_quejas.php" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+
+</body>
 
 
 <footer class="bg-dark text-white text-center p-4">
@@ -155,6 +166,9 @@ $conn->close();
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
 </html>
+
+<?php
+$stmt->close();
+$conn->close();
+?>

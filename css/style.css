@@ -1,38 +1,240 @@
-/* Navbar fijo */
+/* ======================== */
+/* Estilos Generales */
+/* ======================== */
+body {
+    padding-top: 160px; /* Ajuste según la altura del navbar */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ======================== */
+/* Navbar Fijo - Versión más pequeña */
+/* ======================== */
+
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(135deg,  #17a2b8, #0d6efd);
-    padding: 10px 0;   
+    background: linear-gradient(135deg, #17a2b8, #0d6efd);
+    padding: 10px 0;   /* Reducir el padding vertical */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-}
-.h2lis{
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-family: Arial, sans-serif;
-    display: flex;
-    font-weight: bold;
-}
-/* Ajustes generales */
-body {
-    padding-top: 120px; /* Espacio para el navbar */
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    margin-bottom: 20px;
 }
 
-/* Ajustes responsivos */
+/* Marca y logo - Versión más pequeña */
+.navbar-brand {
+    font-size: 1.5rem; /* Reducir tamaño de fuente */
+    font-weight: bold;
+    color: rgb(251, 252, 255);
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Reducir espacio entre logo y texto */
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 60px; /* Reducir tamaño del logo */
+    height: 60px; /* Reducir tamaño del logo */
+}
+
+/* Links del Navbar - Versión más pequeña */
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1rem; /* Reducir tamaño de fuente */
+    font-weight: 700;
+    transition: color 0.3s ease-in-out;
+    padding: 0.5rem 1rem; /* Ajustar padding */
+}
+
+/* Ajustes Responsivos del Navbar */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background: linear-gradient(135deg, #17a2b8, #0d6efd);
+        padding: 10px; /* Reducir padding */
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px; /* Reducir padding */
+    }
+}
+
 @media (max-width: 768px) {
     .navbar {
-        padding: 10px 0;
+        padding: 5px 0; /* Reducir padding */
     }
+
     body {
-        padding-top: 80px;
+        padding-top: 60px; /* Ajustar según nuevo tamaño del navbar */
     }
+}
+
+/* ======================== */
+/* Contenedor de Productos */
+/* ======================== */
+
+/* Agregar margen inferior a cada tarjeta */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Si las tarjetas están dentro de un contenedor con "display: flex", aplicar gap */
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas en la fila */
+}
+
+/* Estilo para las imágenes de productos */
+.card img {
+    width: 100%; /* La imagen se ajusta al ancho de la card */
+    height: 200px; /* Mantiene una altura uniforme */
+    object-fit: contain; /* Ajusta la imagen sin recortarla */
+    padding: 10px; /* Espaciado para que no quede pegada a los bordes */
+    background-color: #fff; /* Fondo blanco por si la imagen tiene transparencia */
+}
+
+/* Diseño responsivo de las tarjetas */
+@media (max-width: 768px) {
+    .productos-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 100%; /* Las tarjetas ocupan todo el ancho */
+    }
+}
+
+/* ======================== */
+/* Sección de Productos */
+/* ======================== */
+#productos {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#productos h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#productos h2::after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Pestañas de marcas */
+.nav-pills .nav-link {
+    color: #333;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #0056b3;
+}
+
+/* ======================== */
+/* Ajustes Responsivos */
+/* ======================== */
+@media (max-width: 768px) {
+    #productos h2 {
+        font-size: 1.8rem;
+    }
+
+    .nav-pills {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-pills .nav-item {
+        margin: 5px;
+    }
+
+    .nav-pills .nav-link {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .productos-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ======================== */
+/* Opiniones y Carrusel */
+/* ======================== */
+.opinion {
+    text-align: center;
+    padding: 20px;
+    width: 280px;
+    background: #d6e5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.opinion img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.opinion .nombre {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Ajustes para el carrusel */
+#carouselOpiniones .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
 }
 
 /* Contenedor de productos */

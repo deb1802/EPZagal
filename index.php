@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/za.png" alt="Logo" width="100" height="100" class="me-2"> 
+                <img src="img/logoshop.png" alt="Logo" width="100" height="100" class="me-2"> 
                 <h1><b>TechShop </b></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
